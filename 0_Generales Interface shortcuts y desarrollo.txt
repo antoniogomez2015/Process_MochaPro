@@ -1,0 +1,298 @@
+
+
+Mocha Pro
+
+
+	videoedicionorg (10 videos, español)
+
+		https://www.youtube.com/user/videoedicionorg/search?query=mocha
+
+
+	LENS:
+
+		02 - Módulo Lens en Mocha Pro 2.6
+			https://www.youtube.com/watch?v=k9rCVdNo1Gc
+
+
+			
+
+	LENS:
+
+		02 - Módulo Lens en Mocha Pro 2.6
+			https://www.youtube.com/watch?v=k9rCVdNo1Gc
+
+
+
+	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
+
+
+	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Interface:
+__________
+
+	
+	_a continuación vamos hacer un recorrido por todas las partes y herramientas de la interface así, como de sus respectivos
+
+	paneles entre todas sus posibilidades
+
+
+
+	Comandos de Interface:
+	______________________
+
+
+	Maximize Viewport:
+
+		_para maximizar un viewport, de la interface, debemos seleccionar éste y aplicar el shortcut "Alt + X"
+
+
+
+
+	Barra de herramientas:
+	______________________
+
+
+	Pan Move:
+
+		_ésta herramienta nos permite mover el viewport, dentro del canvas de trabajo para mover el así el material
+
+		de archivo en el viewport, cuando tenemos ésta de forma ampliada para hacer selecciones y observaciones
+
+		detalladas
+
+		_shortcut: "mouse midle click and drag up / down", sin soltar, ó "X"
+
+
+	Zoom to active:
+
+		_ésta opción nos permitirá hacer zoom, sobre el material de archivo en el viewport, shortcut 
+
+		"Z + mouse left click and drag Up / Down"
+
+
+	Zoom to Fit:
+
+		_ajustar el viewport, al 100%, ajustado de la vista shortcut: (*), asterisco en el "Path number"
+
+
+
+	Zoom 100% Preview:
+
+		_ésta opción nos permite volver a un zoom, anterior lo cuál es especialmente útil en el proceso de producción
+
+		shortcut "/", barra inclinada en el "Number Path", del keyboard
+
+
+
+	
+	Pick Tool:
+
+		_ésta es la herramienta de selección general, tanto de nodos como de elementos shortcut "Control + F"
+
+		_y dentro de éstas opciones también, dispodremos de una sub-herramienta de selección de "lazzo"
+
+
+
+	Move Inner and Edges Pints Togetter:
+
+		_
+
+
+
+	X-Spline Layer:
+
+		_ésta herramienta nos permite crear selecciones de planos y elementos sobre el material de archivo en el viewport,
+
+		a través, de nodos y handles, por medio de los cuales podremos perfeccionar las formas y editardas a través, del
+
+		tiempo
+
+
+		_para lo cuál, debemos de crear un punto inicial para que se cree una nueva layer, de trabajo para luego seguir 
+
+		creando más puntos ó vertex, hasta cerrar la forma ó circuito en el mismo punto donde comenzamos
+
+		
+		_handles:
+
+			_los handles nos permitirán ajustar la forma y presición que tendrán las splines, que conforman la selección
+
+			en relación a la cantidad de vertex, que conforman ésta
+
+
+			_así, moviendo éstos manejadores podremos hacer splines, con curvas más suaves ó con ángulos más pronunciados,
+
+			para lo cuál, tendremos que mover los handles, hacia adentro ó hacia afuera en relación a la ubicación de la
+
+			splines, y a los demás vertex
+
+
+			_y para seleccionar todos los vertex, de forma automática y poder hacer ajustes grupales contamos con el shortcit:
+
+			"mouse right click and drag", así, el sistema seleccionará todos los vertex, que conforman la sección para que así,
+
+			podamos hacer ediciones grupales de todos los vertex, por igual
+
+
+		_shortcut: "Indeterminado"
+
+
+	Add X-Spline Layer:
+
+		_ésta herramienta nos permite agregar más selecciones a un plano ó área seleccionada previamente así, podremos apliar las 
+
+		posibilidades de selección agregando más puntos de referencia
+
+
+		_las opciones de ésta herramienta funcionan de forma idéntica a la herramienta "X-Spline Layer:"
+
+
+
+	Bezier Layer Tool:
+	__________________
+
+		_ésta herramienta nos permite hacer selecciones de planos y áreas al mismo modo que la herrmienta X-Spline Layer, más ésta nos
+
+		brinta la posibilidad de la edición de curvas bezier, la cuál nos permite un control por handles, directos sobre cada vertex
+
+
+		_así, dispondremos handles, tanto de entrada como de salida en cada punto de control que conforma la spline resultante
+
+
+		_y vara editar los handles, podemos vincular y desvincular éstos de forma temporal así, a través, del shortcut, "Control +", 
+
+		podremos hacer "mouse left click and drag", para mover los handles de forma independientes unos de otros de forma temporal
+
+
+		_así, como también, podremos acceder a las opciones de la spline, a través, del menú contextual haciendo "mouse right click", 
+
+		sobre cualquier parte de la spline, sobre el viewport
+
+
+		NOTA: todas las herramientas de splines, como x-spline, como bezier, al crear ésta una selección de un plano automáticamente
+
+		éstas crearán una nueva layer, la cuál, se agregará al panel "Layer Control". el cuál cuál, podremos controlar todos los 
+
+		parámetro de acción y creterios:
+
+
+			
+
+			Visible:
+
+				_ésta opción nos permite hacer visible una layer, en el viewport ó ocualtar ésta
+
+
+			Active:
+
+				_ésta opción nos permite hacer una layer, activa para el proceso de cálculo de rastreo ó tracking, ó no así,
+
+				rastrear sólos las layers, que nos interesan de las existentes tanto en el viewport, con en el panel Layer Control
+
+
+
+			Stroke:
+				_ésta opción nos permite cambiar el color de la spline, lo cuál, es especialmente útil para controlar el contraste
+
+				entre diferentes planos con diferentes elementos de colores cambiantes, otros
+
+
+			Fill:
+
+				_ésta opción nos permite cambiar el color de relleno de referencia de las selecciones ó planos creados para lo cuál,
+
+				debemos activar la herramienta de visualización de mates ó "Show Layer Mattes", shortcut; "Alt + 1"
+
+			
+			Name:
+
+				_ésta opción nos permite asignarle un nombre descriptivo a las respectivas layers
+
+
+
+	Add Bezier Layer Tool:
+
+		_ésta herramienta nos permite agregar más selecciones a un plano ó área seleccionada previamente así, podremos apliar las 
+
+		posibilidades de selección agregando más puntos de referencia
+
+
+		_las opciones de ésta herramienta funcionan de forma idéntica a la herramienta "Bezier Layer Tool:"
+
+
+
+	Point Insertion:
+
+		_ésta herramienta nos permitirá agregar más puntos ha un selección ó plano ya seleccionado ó creado previamente así, podremos
+
+		ajustar y mejorar selecciones en casos y planos complejos donde requerirar en determinados casos que agregemos más puntos de
+
+		detalle para un mejor rastreo
+
+
+
+	Rotate:
+
+		_ésta herramienta nos permitirá hacer rotaciones de selecciones enteras así, podremos acentar la herramienta en el punto
+
+		que deciemos que sea el punto de rotación para que así nos aparesca un control de grados sobre los cuales se realizará
+
+		la rotación de todo el sistema ó plano seleccionado
+
+
+	Scale:
+
+		_ésta herramienta nos permitirá escalar selecciones enteras así, podremos acentar la herramienta en el punto que deciemos 
+
+		que sea el punto de rotación para que así nos aparesca un control de grados sobre los cuales se realizará la escala de 
+
+		todo el sistema ó plano seleccionado
+
+
+
+	Translate:
+		
+
+		_ésta herramienta nos permitirá mover selecciones enteras así, podremos acentar la herramienta en el punto que deciemos 
+
+		que sea el punto de movimiento para que así podamos realizará el movimiento de todo el sistema ó plano seleccionado
+
+
+
+	Transformation Tool:
+
+		_ésta herramienta estará activa sobre un plano ó selección activa cuando tengamos la herramienta de selección por lo general
+
+		"Pick Tool", báse
+
+
+		_así, a través, de la herramienta de "Transformation Tool", podremos hacer ajustes y deformaciones sobre todo el grupo de
+
+		vertex, que conforman la selección y el plano en un sólo paso y proporción
+
+
+		_así, de ésta manera, dispondremos de un marco perimetral sobre toda la sección el cuál, podremos seleccionar a través, de
+
+		sus handles exteriores para su control y manejo
+
+
+		de ésta manera, podremos hacer shear, scale, rotation, translation, distor, y hasta de forma proporcional haciendo uso del 
+
+		shortcut, temporal "Shift"
+
+
+
+
+	
+
+
+
+
+	

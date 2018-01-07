@@ -1,0 +1,192 @@
+
+
+Mocha Pro
+
+
+	videoedicionorg (10 videos, español)
+
+		https://www.youtube.com/user/videoedicionorg/search?query=mocha
+
+
+	LENS:
+
+		02 - Módulo Lens en Mocha Pro 2.6
+			https://www.youtube.com/watch?v=k9rCVdNo1Gc
+
+
+			
+
+	LENS:
+
+		02 - Módulo Lens en Mocha Pro 2.6
+			https://www.youtube.com/watch?v=k9rCVdNo1Gc
+
+
+
+	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
+
+
+	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Modalidades y aplicaciones:
+___________________________
+
+	
+----------------------------------------------------------------------------------------------------------------
+Modalidades Nativas ó Internas:
+_______________________________
+----------------------------------------------------------------------------------------------------------------
+
+	
+	_en ésta sección estudiaremos las modalidades y aplicaciones que tinen los sistemas y módulos en general 
+
+	así, como las aplicaciones prácticas y más comunes dentro de la producción
+
+
+
+	Layers Modes:
+	_____________
+
+	_las layers, ó selecciones de planos en mocha pro, tienen diferentes aplicaciones como selecciones y 
+
+	planos de rastreo ó tracking, pero también, éstas temporalmente pueden tomar otras características para 
+
+	ciertos procesos en conjuntos con las demás layers
+
+
+
+	Sustract Layer:
+	_______________
+
+	_así, por ejemplo cuando deseamos trakear un plano y sobre éste pasa un elemento ó varios elementos  y 
+
+	deseamos que éstos elementos no interfieran y que no sean contemplados por el análisis de rastreo para 
+
+	que así, éstos no influyan ó interfieran en el resultado y creterio del sistema para generar el 
+
+	resultado esperado
+
+
+	_de ésta manera, podremos crear layer, de selecciones de éstos elementos que pasan sobre nuestro plano ´
+
+	principal ó motivo respectivo para posteriormente hacer "mouse right click", sobre una de las spline, de 
+
+	ésta layer, en el viweport, para que así, nos aparesca un menú contextual de opciones en las cuales 
+
+	podremos seleccionar las opciones de "Layer"
+
+
+	_y en dicha sección del menú contextual seleccionar la opción de "Sustract Layer", para que así, ésta 
+
+	nueva layer, que interfiere sobre la layer, motivo principal sea sustraida de la layer, motivo para que 
+
+	de ésta manera, ésta layer, que pasa sobre nuestro motivo principal no sea tomada en en cuenta a la hora 
+
+	de hacer el seguimiento ó rastreo sobre la layer motivo principal
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+Using Transform Data; in After Effects:
+_______________________________________
+
+	_ésta opción nos permite exportar la data optenida del proceso de seguimiento de planos en Mocha Pro, ha 
+
+	After Effects, de ésta manera, podremos optener diferentes aplicaciones en diferentes métodos aplicables 
+
+	en diferentes procesos de producción
+
+
+
+	Transpolar movimiento y perspectiva 3d ha un Corner Pin, en After Effects: (version de mocha pro 5.0):
+	______________________________________________________________________________________________________
+
+	NOTA: montaje de imágen en plano screen
+
+	
+	_de ésta manera, podremos transpolar el movimiento y forma del área ó plano rastreado dentro de mocha pro, 
+
+	ha una layer, dentro de after effects
+
+
+	_así, podremos amular la forma y comportamiento del plano y área traqueada en mocha pro, a través, de una 
+
+	layer, con el efecto de "corner pin", dentro de after effects
+
+
+	_para lo cuál, debemos previamente haber terminado con el proceso de rastreo en mocha pro, para luego ir a 
+
+	las opciones de "Mocha Pro/Track/Export Data/", y darle a las opciones de "Export Tracking Data...", para 
+
+	que así, nos parescan una serie de opciones de exportación
+
+
+	_para que así, podamos seleccionar entre las siguientes opciones:
+
+
+		"After Effects CS3 Corner Pin [supports motion blur, CS3 and older](*txt)":
+
+			_ésta es la opción más básica y directa que nos permitirá volcar los datos sobre una layer,
+
+			para así, el sistema le aplique ha ésta layer, un efecto de corner pin, con la datos de los
+
+			puntos de trackeo de seguimiento configurados automáticamente
+
+
+		"After Effects Corner Pin [Corner Pin Only, supports RG WARP and mochaImport](*txt)":
+
+			_ésta opción es identica a la opción anterior más ésta también, hace un volcado en las 
+
+			opciones básicas como "Translation, Rotacion, Scale", para que así, podamos aplicarle ha 
+
+			ésta layer, el modo de "Motion Blur"
+
+
+		"After Effects Corner Pin [supports motion blur](*txt)":
+
+			_ésta opción es identica a la opción anterior más ésta también, hace un volcado en las 
+
+			opciones básicas como "Translation, Rotacion, Scale", para que así, podamos aplicarle ha 
+
+			ésta layer, el modo de "Motion Blur"
+
+	
+
+	NOTA: cuando a la layer, sobre la cuál, vayamos ha hacer el volcado de información con la modalidad de 
+
+	"Corner Pin", sea más pequeña que la composición del clip, de video ó source, es recomendable en ese caso; 
+
+	precomponer ésta layer, para que así, la precomposición resultante de dicho proceso, tome el tamaño de la 
+
+	composición del material ó footage analizado para que así, coincidan y mantengan las relaciones de 
+
+	compensación y distorción entre otras características del plano transpolado
+
+
+	_aunque es más recomendable crear un nuevo "solid", sólido y luego precomponer éste, para que así, ésta
+
+	layer, de tipo sólida haga de proxi, de ésta manera, sólo tendremos que entrar en ésta nueva precomposición
+
+	y editar ó sustitutir ésta layer de tipo solid
+
+
+	_y luego de haber creado éste nuevo sólido precompuesto debemos seleccionar ésta precomposición y con ésta
+
+	seleccionada hacemos "Control + V", para volcar así, los datos del sistema "Corner Pin", para que así, de
+
+	ésta manera, el sistema le agrege ha precomposición el efecto de corner pin y a su vez, le agregue a sus 
+
+	respectivos handles, la información del trackeo realizado
+
+
+	_de ésta manera, podremos ver que el motivo coincide tanto en tamaño como en movimientos de perspectiva con
+
+	el material trackeado de fondo por lo general
+
+

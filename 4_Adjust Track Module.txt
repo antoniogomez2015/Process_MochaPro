@@ -1,0 +1,403 @@
+
+
+Mocha Pro
+
+
+	videoedicionorg (10 videos, español)
+
+		https://www.youtube.com/user/videoedicionorg/search?query=mocha
+
+				
+
+	ADJUST TRACK:
+
+		04 - Módulo Adjust en Mocha Pro 2.6
+
+			https://www.youtube.com/watch?v=DWGW-wZGdxk#t=490.211721
+
+
+
+	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
+
+
+	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Adjust Track Module:
+____________________
+
+	
+	_éste módulo nos permite hacer ajustes sobre los resultados sobre el "Planar Surface", resultante 
+
+	relacionado con el área ó plano trackeado
+
+
+	_de ésta manera, podremos reorientar el plano resultante ha exportar para que así, éste se ajuste y adapte 
+
+	ha las necesidades de producción y post.producción deseados, así, como también, éste plano "planar surface",
+
+	estará superditado a la edición que realicemos sobre el panel "Lens"
+
+
+
+	General:
+	________
+
+
+	_primero de tenemos que haber hecho es el proceso previo de "Track Module", ó proceso de trackeo sobre el 
+
+	área ó plano deseado ó respecvo
+
+
+	NOTAS:
+
+	_en el módulo "Adjust Track Module", sólo podremos editar lo referente al área de extracción ó 
+
+	"Planar Surface", lo que quiere decir, que los keyframes que agregemos en éste módulo no afectarán a el
+
+	área de rastreo ó "Search Area"
+
+
+	_de ésta manera, el "Planar Surface", ó área de búsqueda se compone de dos partes, éstas son:
+
+
+		Los puntos de Referencia:
+		_________________________
+			
+			_éstos son cuatro puntos ó cuadrados muy pequeños de color rojo, sin importar la
+
+			la cantidad de vertex, existentes en la shape, del área de búsqueda ó "Search Area"
+
+
+			_éstos puntos representarán la ubicación del "Planar Surface", en relación a la ubicación
+
+			de éstos puntos en el "Set Master All", que indicaremos más adelante
+
+
+			_y dichos puntos de color rojo los iremos modificando a través, del tiempo por medio de 
+
+			diferentes criterios para que así, éstos se mantengan en la misma ubicación que tenían 
+
+			en el frame, de referencia que le hemos indicado al sistema
+
+
+			_éstos puntos de color rojo estarán unidos ó conectactos entre si a través, de una línea 
+
+			de color verde punteada la cuál, será visible cuando movemos alguno de ésta cuatro puntos 
+
+			ó cuadrados pequeños de color rojo
+
+
+		Planar Surface:
+		_______________
+
+			_ésta es una área conformada por cuatro líneas de color azul, ó también, podríamos decir
+
+			que está conformada por cuatro vertices
+
+
+			_ésta línea ó área de extracción "Planar Surface", la podemos hacer visible luego de haber
+
+			creado la layer, y shape, de la "Search Area", ó área de búsqueda a través, del shortcut,
+
+			"Alt + 6"
+
+
+
+	Wordflow:
+	_________
+
+	_y para utilizar el panel de "Adjust Track Module", lo primero que tendremos que hacer luego de haber 
+
+	realizado todo el proceso de trackeo, es escontrar un un fotograma de referencia en el cuál, el área de 
+
+	búsqueda ó "Search Area", y el "Planar Surface", ó el área de extracción se encuentran correctamente 
+
+	colocados, en relación a la lógica del motivo y el punto de interés del motvo, por lo general será el 
+
+	frame, en el cuál hemos creado la layer, y su shape, así, como el "Planar Surface", en su posición inicial
+
+
+	_de ésta manera, debemos ubicar éste frame, y colocarnos en ésta posición en el timeline, para que el 
+
+	sistema la registre como la referencia principal para completar todo el proceso
+
+
+
+	Reference Point:
+	________________
+
+
+		_Set Master All:
+
+			_ésta es la opción más importante del proceso para lo cuál, debemos primeramente de ubicar 
+
+			un frame, ó fotograma en el cuál, se encuentren correctamente ubicados tanto el área de 
+
+			búsqueda "Search Area", como el área de extracción "Planar Surface", según la lógica del
+
+			motivo ha trackear
+
+
+			_de ésta manera, debemos colocar el cabezal del timeline, en éste fotograma que le 
+
+			indicaremos al sistema que utilice como referencia del punto correcto ó ideal ha seguir a
+
+			través, de todo el proceso
+
+
+			_de ésta manera, ya con el freme, respectivo identificado y con el cabezal del timeline, 
+
+			éste punto debemos de hacer "mouse left click", sobre el botón "Set Master All", para que
+
+			así, el sistema capture ésta información para compararla a través, del tiempo con los
+
+			cuatro puntos de referencia de color rojo expresados en pasos anteriores
+
+
+			NOTA: es recomendable antes de accionar el botón "Set Master All", haber deseleccionado 
+
+			todos los puntos de color rojo, para ésto, basta de deseleccionar y seleccionar nuevamente
+
+			la respectiva layer, para que así, el sistema tome todos los puntos de referencia por igual 
+
+			y no sólo uno de los cuatro
+
+
+			Ajust:
+			______
+
+			_de ésta manera, al haber capturado la información del fotograma espeficiado de referencia
+
+			para el sistema ahora al mover cualquiera de los cuatro puntos de color rojo a través, del
+
+			timepo nos aparecerán en el viewport, dos recuadros de referencia con un factor de 
+
+			ampliación los cuales son:
+
+
+				Master Frame:
+				_____________
+
+					_éste recuadro estará en la parte superior y hará referencia al la posición
+
+					de éste punto en el fotograma que le hemos indicado al sistema que tome 
+
+					como referencia, de ésta manera, ésta referencia siempre estará visible a 
+
+					través, del tiempo cuando movamos y hagamos correcciones sobre éste punto, 
+
+					y de igualmanera para los demás tres puntos de los cuatro puntos con sus
+
+					respectivas referencias
+
+
+				Current Frame:
+				______________
+
+					_éste recuadro estará en la justo debajo del recuadro de referencia 
+
+					"Master Frame", y hará referencia a la posición actual en el tiempo del 
+
+					punto respectivo de color rojo, de ésta manera, podremos comparar la 
+
+					posición de éste respectivo punto rojo en el tiempo con el punto de 
+
+					referencia indicado respectivamente
+
+
+			_y para dichos efectos ó correcciones dispondremos de tres modalidades de acción las cuales
+
+			serán a través, de las opciones de "Nudge", "Auto Nudle", y "Manual", los cuales veremos
+
+			a continuación
+
+
+			_y la opción manual será el cambio de posición directamente de cada punto en el viewport, 
+
+			de forma apreciativa a través, del tiempo por nosotros mismos
+
+
+	
+
+		_New Ref Left:
+
+			_(Indeterminado)
+
+
+		_New Ref Right:
+
+			_(Indeterminado)
+
+		_Set Master:
+
+			_(Indeterminado)		
+
+
+		_Next:
+
+			_(Indeterminado)
+	
+		
+		_Delete:
+
+			_(Indeterminado)
+
+
+		_Reset:
+
+			_(Indeterminado)
+
+
+	Nudge:
+	______
+
+		_Esquina izquierda Superior:
+
+			_éste ícono de forma de esquina ó ángulo hace referencia y seleccionará al punto de color 
+
+			rojo de la parte superior izquierda para un posterior ajuste ó corrección de su posición 
+
+			en el tiempo
+
+
+		_Esquina izquierda Interior
+
+			_éste ícono de forma de esquina ó ángulo hace referencia y seleccionará al punto de color 
+
+			rojo de la parte inferior izquierda para un posterior ajuste ó corrección de su posición 
+
+			en el tiempo
+
+
+		_Esquina derecha Superior:
+
+			_éste ícono de forma de esquina ó ángulo hace referencia y seleccionará al punto de color 
+
+			rojo de la parte superior derecha para un posterior ajuste ó corrección de su posición 
+
+			en el tiempo
+
+
+		_Esquina derecha Inferior:
+
+			_éste ícono de forma de esquina ó ángulo hace referencia y seleccionará al punto de color 
+
+			rojo de la parte inferior derecha para un posterior ajuste ó corrección de su posición 
+
+			en el tiempo
+
+
+		_Up:
+
+			_ésta opción noverá el respectivo punto rojo hacia arriba en relación a la cantidad de 
+
+			pixeles indicados en el parámetro "Search Region Size", tanto en valores en "X,Y", de ésta
+
+			manera, podremos hacer una corrección manual de forma más precisa pudiendo así, avanzar
+
+			paso ha paso de forma controlada y no con movimientos bruscos e impresisos
+
+
+		_Down:
+
+			_ésta opción noverá el respectivo punto rojo hacia abajo en relación a la cantidad de 
+
+			pixeles indicados en el parámetro "Search Region Size", tanto en valores en "X,Y", de ésta
+
+			manera, podremos hacer una corrección manual de forma más precisa pudiendo así, avanzar
+
+			paso ha paso de forma controlada y no con movimientos bruscos e impresisos
+
+
+		_Left:
+
+			_ésta opción noverá el respectivo punto rojo hacia la izquierda en relación a la cantidad 
+
+			de pixeles indicados en el parámetro "Search Region Size", tanto en valores en "X,Y", de 
+
+			ésta manera, podremos hacer una corrección manual de forma más precisa pudiendo así, 
+
+			avanzar paso ha paso de forma controlada y no con movimientos bruscos e impresisos
+
+
+
+		_Right:
+
+			_ésta opción noverá el respectivo punto rojo hacia la derecha en relación a la cantidad 
+
+			de pixeles indicados en el parámetro "Search Region Size", tanto en valores en "X,Y", de 
+
+			ésta manera, podremos hacer una corrección manual de forma más precisa pudiendo así, 
+
+			avanzar paso ha paso de forma controlada y no con movimientos bruscos e impresisos
+
+
+
+
+	AutoNudge:
+	__________
+
+	
+		_Search Region Size (X,Y):
+
+			_ésta opción nos permite indicar la cantidad de desplazamiento de los puntos de color rojos
+
+			en las cordenadas "X,Y"
+
+
+		_Maximun Motion:
+
+			_ésta opción nos permite indicar a cantidad de suavizado ó interpolado del movimiento 
+
+			realizado en el paso anterior de "Search Region Size", y en todas sus implicaciones
+
+
+		_y para aplicar ésta opción de ajuste debemos haber indicado los criterios en los anterioes de
+
+		"Search Region Size", y "Maximn Motion", para luego darle al botón "Auto", para que así, el sistema
+
+		aplique éstos cambios de ajustes a los cuatro puntos de forma automática en el fotograma actual
+
+
+		NOTA: ésta opción crea fotograma clave a parte para la opción de ajuste "Auto", los cuales no
+
+		coincidirán con los keyframes, realizados de forma manual del ajuste punto por punto rojo 
+
+
+	View:
+	_____
+
+
+		_Inactive Traces:
+
+			_(Indeterminado)
+
+
+		_Unselected Traces:
+
+			_(Indeterminado)
+
+
+		_Search Area:
+
+			_(Indeterminado)
+
+
+	Export Data:
+	____________
+
+
+		_Export Tracking Data:
+
+			_ésta opcíon nos permite exportar el resultado del "Planar Surface", ha otras aplicaciones
+
+			de producción
+
+	
+		

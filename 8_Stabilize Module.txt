@@ -1,0 +1,592 @@
+
+
+Mocha Pro
+
+
+	videoedicionorg (10 videos, español)
+
+		https://www.youtube.com/user/videoedicionorg/search?query=mocha
+
+				
+
+	Stabilize:
+
+		06 - Módulo Stabilize en Mocha Pro 2.6
+
+
+			https://www.youtube.com/watch?v=75xuhIYLwAI
+
+
+
+	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
+
+
+	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Stabilize Module:
+_________________
+
+	
+	_éste módulo nos permite seleccionar un área ó motivo y hacer que éste se mantenga lo más estable 
+
+	posible en relación al movimiento de en relación a los demás elementos de la escena
+
+
+
+	General:
+	________
+
+
+	_primero de tenemos que haber hecho es el proceso previo de "Track Module", ó proceso de trackeo sobre el 
+
+	área ó plano deseado ó respecvo
+
+
+	_de ésta manera, al pasar a trabajar en el panel Stabilize, éste ha relizará un cálculo preliminar de forma
+
+	automática con los parámetro de estabilización por defecto
+
+
+
+	Input:
+	______
+
+
+		Input Clip:
+		___________
+
+			_éste representa el clip, de trabajo ó material de archivo ha trackear y estabilizar
+
+
+		Clip to Stabilize:
+		__________________
+
+			_
+
+
+	Range:
+	______
+
+
+		_First Frame:
+
+			_
+
+
+		_Last Frame:
+
+			_
+
+
+
+	Output:
+	_______
+
+
+		_output Clip:
+
+			_
+
+
+
+
+	Fixed Frames:
+	_____________
+
+	
+		Frame List: 
+
+			_ésta opción nos permite corregir ó eliminar la perdida, sangrado ó recorte de los bordes 
+
+			en el material de archivo, efecto que se sucede luego de haber terminado el proceso de 
+
+			estabilizado del plano del motivo
+
+
+			MOTA: éstas opciones de "Frame List + / -", funcionan para el modo de recuperación de 
+
+			bordes negros para el método "Smooth/Zoom", no para las opciones de "Auto Fill"
+
+
+		+ -:
+		____
+
+			
+			Reference Layer:
+			________________
+
+			_para éste proceso debemos ir avanzando el cabezal en el timeline, para que así, podamos
+
+			ver los frames, que presenten más sangrado ó recorte de bordes negros
+
+
+			_de ésta manera, al posicionarnos sobre un frame, con muchos bordes negros debemos entonces
+
+			hacer "mouse left click", sobre el botón "Frame List/+", ó plus (+), para que así, el 
+
+			sistema vaya comparando el frame, indicado con éste mismos frame, sin estabilizar ó sin 
+
+			bordes negros para que así, el sistema trate de recuperar la imágen y colocarla sin bordes
+
+			negros
+
+
+			_así, de ésta manera, debemos repetir éste proceso para el resto de frames, que tengan gran
+
+			cantidad de bordes negros; hasta que hayamos terminado ó minimizado la aparición de los
+
+			bordes negros
+
+
+
+			Render:
+			_______
+
+			_y por último podremos ver que la botonera de trackeo en el panel "Stabilize", en el medio 
+
+			habrá una rueda dentra de "Render", la cuál, nos permitirá colocarnos en un frame, en el cuál,
+
+			haya problemas de sangrado ó border negros y hacer mouse left click, sobre éste botón de 
+
+			render para que el sistema haga un comparación en eltre el clip, que deseamos corregir y el 
+
+			clip, que le hemos indicado que tome como referencia para así, poder corregir el proceso de 
+
+			los border negros sobre el clip, estabilizado
+
+
+			_de ésta manera, debemos repetir ésta proceso para el resto de frames, con problemas de border
+
+			negros en el plano estabilizado
+
+
+			_así, como también, en éste punto dispondremos de la opcíón de trackear hacia adelante y hacia
+
+			atras para que así, el sistema trate de rellenar con la información frame to frame, del clip,
+
+			que le hemos indicado como referencia
+
+
+	Smooth:
+	_______
+
+
+		All Motion:
+
+			_ésta opción le indicará al sistema de detecte y suavise ó elimine todos los movimientos
+
+			en relación al motivo y los demás elementos de la escena en el material de archivo
+
+
+		X Translation:
+
+			_ésta opción le indicará al sistema de detecte y suavise ó elimine todos los movimientos
+
+			en la cordenada "X", ó movimientos horizontales	en relación al motivo y los demás elementos 
+
+			de la escena en el material de archivo
+
+
+		Y Translation:
+
+			_ésta opción le indicará al sistema de detecte y suavise ó elimine todos los movimientos
+
+			en la cordenada "Y", ó movimientos verticales en relación al motivo y los demás elementos 
+
+			de la escena en el material de archivo
+
+
+		Rotation:
+
+			_ésta opción le indicará al sistema de detecte y suavise ó elimine todos los movimientos
+
+			de rotación en relación al motivo y los demás elementos de la escena en el material de 
+
+			archivo
+
+
+		Zoom:
+
+			_en ésta opción el sistema tratará de mantener el encuadre original escalando así, la 
+
+			imágen lo cuál, implicará un cambio ó perdida de tamaño y de resolución del material 
+
+			estabilizado, y ésto puede ser un problema en muchos casos en el proceso de producción
+
+
+		X Shear:
+
+			_ésta opción le indicará al sistema de detecte y suavise ó elimine todos los movimientos
+
+			de virado de derecha ha izquierda en relación al motivo y los demás elementos de la escena
+
+			en el material de archivo
+
+
+		Y Shear:
+
+			_ésta opción le indicará al sistema de detecte y suavise ó elimine todos los movimientos
+
+			de virado hacia adelante ó hacia atras en relación al motivo y los demás elementos de la 
+
+			escena en el material de archivo
+
+
+		X Perspective:
+
+			_ésta opción le indicará al sistema que detecte, suavise ó elimine todos los movimientos
+
+			de cambios de plano de perspectiva ó ángulo de toma de derecha ha izquierda en la escena
+
+			en relación al motivo y los demás elementos
+
+		
+		Y Perspective:
+
+			_ésta opción le indicará al sistema que detecte, suavise ó elimine todos los movimientos
+
+			de cambios de plano de perspectiva ó ángulo de toma de arriba hacia abajo en la escena
+
+			en relación al motivo y los demás elementos
+
+
+		Maximun Smoothing:
+
+			_ésta sería la estabilización más radical ya que el sistema trataría de estabilizar el 
+
+			plano ó motivo de forma perfecta pero ha costa de un desplazamiento de los demás elementos
+
+			de la escena muy pronunciado lo cuál, crea por lo general sangrados y recortes extremos
+
+			sobre el material de archivo estabilizado lo que no siempre es deseado ó aceptable en los
+
+			procesos de producción
+
+
+			_incluso ésta opción realiza ciertar deformaciones en el perímetro de la imágen para lograr
+
+			la máxima estabilización sobre el plano del motivo determinado
+
+
+		# Frames:
+
+			_ésta opción le indica al sistema los fotogramas que se van ha tomar como referencia para 
+
+			analizar y realizar el proceso de estabilización sobre el clip, del materia de archivo
+
+
+
+	Borders:
+	________
+
+		
+		_Centre:
+
+			_para una mejor estabilización podemos elegir como funcionarán los border de la escena de
+
+			cara al proceso de estabilización 
+
+
+			_de ésta manera, podremos indicarle al sistema que centre la rotación, escala, translación 
+
+			y distorción estabilizada en relación a la posición ó ubicación del plano motivo 
+
+
+		_Zoom:
+
+			_y a través, de la opción de "Zoom", podremos minizar el border negros ó border recortados
+
+			para que así, la imágen se conseve en el cuadro de la toma lo más posible
+
+
+			_y a contra parte de ésta opción, es que el sistema estará escalando y recortando la toma
+
+			ó escena para así, de ésta manera, eliminar los recorter y sangrados de la imágen lo cuál,
+
+			para algunos procesos de producción ésto es un inconveniente sin contar con la perdida de
+
+			resolución
+
+
+		_Apply Crop:
+
+			_(Indeterminado)
+
+
+
+	Auto Fill:
+	__________
+
+
+		Auto Fill:
+
+			_ésta opción nos permite activar ésta modalidad la cuál, nos permite tratar de eliminar
+
+			también, los border negros en la imágen resultante del plano estabilizado
+
+
+			_primero debemos en éste punto mover el cabezal del tiemeline, para ubilizar almenos una
+
+			zona ó rango en la cuál, hayan bordes negros pronunciados
+
+
+	
+			Reference Layer:
+			________________
+
+			_para posteriormente irnos al panel "track", y allí, crear una nueva layer, con una nueva 
+
+			selección de algún plano referencia el cuál, contenga parte de bordes negros ha eliminar 
+
+			para que así, el sistema los tome como referencia
+
+
+			_y es muy importante que ésta nueva layer, de referencia que hemos creado se encuentra por 
+
+			debajo de la layer, a la cuál, hemos realizado el proceso de estabilizado en el panel 
+
+			"Layers", para que el así, el sistema pueda realizar el proceso correctamente
+
+
+			_así, como también, debemos ajustar la duración de ésta layer, tanto su punto de inicio 
+
+			como su punto final, para ésto, debemos ir a las opciones del panel "Layer Property/In-Out",
+
+			en la parte derecha de la interface, y éste rango indicado como la duración de ésta layer,
+
+			debe de ser en relación al rango en el cuál hemos detectado los bordes negros de referencia
+
+			para el sistema para que así, el sistema haga una análisis en el área adecuada
+
+			
+			_ésta nueva layer, que hemos creado debemos hacerle el proceso de seguimiento en el panel
+
+			"Track", como una layer, normal de trakeo, (para lo cuál, es recomendable desctivar el 
+			
+			engranaje en las demás layers, para que el sistema sólo haga el trackeo ó seguimiento en
+
+			la layer, que hará de referencia y no en las demás que estarán trackeadas)
+
+
+			_de ésta manera, el sistema capturará la posición "Original", de ésta layer, estática ya 
+
+			que en el panel "Track", ésta layer, ó imágen no presentan movimiento "X,Y,Shear,
+
+			Perspective", ya que en el panel track, no aplica el sistema de estabilizado
+
+
+
+			Auto Fill:
+			__________
+
+			_de ésta manera, luego de haber creado la layer, de referencia y luego de haberla trackeado
+
+			en el panel "Track", debemos de volver ahora al panel "Stabilize", e ir a las opciones de
+
+			"Auto Fill", y activar la opción de "Auto Fill"
+
+
+			_para que el así, el sistema busque pixeles de referencia en la layer, he hemos creado como
+
+			referencia para el sistema y que hemos colocado debajo de la layer, con el proceso de 
+
+			estabilizado
+
+
+
+			Search Range:
+			_____________
+
+			_y ésta opción nos permnitirá indicarle al sistema de cuantos fotogramas deseamos que 
+
+			busque por delante y por detras del fotograma actual en la layer, que le hemos indicado
+
+			al sistema como referencia
+
+
+			_y ya a partir de éste punto es sistema irá calculando de forma automática de fora
+
+			relativa el ajuste de los bordes negros en relación a layer, de referencia que le hemos
+	
+			indicado
+
+
+
+			Render:
+			_______
+
+			_más también, tendremos la posibilidad de hacer ajustes controlados a partir de éste punto
+
+			a través, de la opción en la botonera de trackeo del panel "Stabilize", en forma de 
+
+			engranaje ó rueda dentada con el nombre de render
+
+
+			_para que así, al hacer click, sobre éste botón el sistema haga una comparación de éste
+
+			frame, específicamente el cuál, tratará de corregir en relación a la layer, de referencia
+
+			que le hemos indicado
+
+
+			_de ésta manera, podremos repetir éste proceso de forma completa hasta haber corregido toda
+
+			la toma estabilizado, a través, de layers, de referencia y de renders, manuales
+
+	
+			_ entendiendo así, que si indicamos un rango de "10", le estaremos indicando al sistema
+
+			que busque "5-frames", por delante y "5-frames", por detras del frame, actual en relación
+
+			a la layer, que hemos indicado como referencia de comparación de pixeles
+			
+
+
+
+			Search Range:
+			_____________
+
+			_ésta opción permite indicar el rango de búsqueda de fotogramas de comparación en la layer,
+
+			de referencia que indiquemos para el proceso de eliminación de bordes negros en la sección
+
+			de "Auto Fill"
+
+
+			Model Illumination:
+
+				_(Indeterminado)
+
+
+			Disolve:
+			________
+
+			_en correcciones de grandes áreas de bordes negros ó sangrados de imágen el sistema de 
+
+			recostruir la imágen en relación a los pixeles de la layer, de referencia que le hemos 
+
+			indicado pero en casos éste proceso creará imperfecciones como líneas y otros elementos 
+
+			indeseados de forma residual al proceso
+
+	
+			_y para éstos casos tenemos a nuestra disposición la opción de "Dissolve", la cuál,
+
+			tratará lo más posibles de eliminar éstos imperfectos residuales de la imágen resultante
+
+
+
+		Fill from background:
+
+			_ésta opción es muy similar a la opción anterior del proceso de "Auto Fill", a través, del
+
+			proceso de una layer, de referencia colocada por debajo a la layer, estabilizada
+
+
+			_más ésta opción de "Fill from background", tratará de hacer el mismo proceso pero 
+
+			escaneando sólo la layer, de fondo sin tener que hacer layers, de referencia ni trackeos
+
+			adicionales
+
+
+
+	Region:
+	_______
+
+
+		_Stabilize Matte Area:
+
+			_
+
+
+		_Apply Matte in Composite:
+
+			_
+
+
+	
+	Sharpen:
+	________
+
+
+		_Sharpen:
+
+			_
+
+
+	
+	Export Stabilized Tracking Data:
+	________________________________
+
+		_y al final al terminar todo el proceso de estabilizado del plano deseado de la escena del material
+
+		archivo, debemos exportar ésta para las aplicaciones de producción para continuar así el proceso
+
+		de composición, otros
+
+
+		_para lo cuál, debemos a las opciones en el panel "Stabilize/Export Stabilized Tracking Data", para
+
+		que así, nos aparesca una ventana contextual en la cuál, podremos elegir entre una serie de 
+
+		opciones de formatos de exportación
+
+
+		_entre los cuales el forma más conveniente para after effects, y que da menos problemas y permita
+
+		la mayor compatibilidad de parámetros a la hora de la exportación es la opción de:
+
+
+			_"After Effects Corner Pin [supports motion blur](.txt)"
+
+
+		_de ésta manera, podremos exportar éste archivo como un documento ".txt", así, como también, 
+
+		guardarlo tempoalmente en el clipboard, ó port papeles
+
+
+		_así, a partir del punto de por ejemplo de copiar la información en el portapapeles podremos ver 
+
+		como se irán prerenderizando los fotogramas en el portapapeles
+
+
+
+		After Effects:
+		______________
+
+		_y ya en after effects, debemos de tener cargado el mismo material de archivo ó contenido que
+
+		hemos estabilizado son escalar y sin haber redimensionado su damaño y demás propiedades del video
+
+		ó secuencia de imágenes, lo más recomendado es hacer una composición a partir del material de 
+
+		archivo para que así, el sistema se encargue de crear dicha composición con las características
+
+		exactas del material de archivo
+
+
+		_para a continuación seleccionar la layer, del material de archivo ha estabilizar dentro de 
+
+		after effects, y con ésta layer, seleccionada debemos hacer "Control + V", para que así, 
+
+		procedamos ha pegar los fotogramas de control del proceso de estabilizado sobre la layer, a 
+
+		través, de un efecto de "Corner Pin", sobre la layer, del motivo minimizando así, la trepidación
+
+		ó efecto de movimiento no deseado sobre el plano del motivo
+
+	
+
+
+			
+	
+
+
+			

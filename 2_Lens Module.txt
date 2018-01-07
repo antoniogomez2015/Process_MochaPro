@@ -1,0 +1,273 @@
+
+
+Mocha Pro
+
+
+	videoedicionorg (10 videos, español)
+
+		https://www.youtube.com/user/videoedicionorg/search?query=mocha
+
+
+	LENS:
+
+		02 - Módulo Lens en Mocha Pro 2.6
+			https://www.youtube.com/watch?v=k9rCVdNo1Gc
+
+
+			
+
+	LENS:
+
+		02 - Módulo Lens en Mocha Pro 2.6
+			https://www.youtube.com/watch?v=k9rCVdNo1Gc
+
+
+
+	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
+
+
+	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
+
+
+Mocha Pro 5 Plug-In for Adobe - In Depth Review
+	https://www.youtube.com/watch?v=Q-Ytv8fHzd0
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Lens Module:
+____________
+
+	
+	_éste módulo nos permite hacer correcciones ópticas de los planos en los clips, de ésta manera, podremos transpolar
+
+	la distorción existente en los clips, ha "La Superficie Planar", sobre la cuál, se volcará el proceso de render y 
+
+	procesado
+
+
+	_ésta opción es especialmente útil en superficies con mucha distorción ótica, por ejemplo en tomas realizadas con
+
+	gran angular la cuál deseamos recuperar ó transpolar a la zona ha extraer de forma fácil y rápida con pocos puntos 
+
+	de seguimiento
+
+
+
+	General:
+	________
+
+	_primero debemos ir a la sección de "Lens", de mocha pro
+
+
+	_y para comenzar con dicho proceso, debemos hacer una selección y crear una nueva layer, de trabajo, ésta 
+
+	selección puede ser una selección existente ó podemos crear una nueva la cuál, nos servirá tanto para éste
+
+	proceso como los demás procesos como track, y procesos posteriores a la corrección óptica
+
+
+	_y para corregir el proceso de distorción de lente dispondremos de dos opciones, éstas son:
+
+
+
+	Option 1:
+	_________
+
+
+		_"Locate Lines":
+
+			_la primera opción consiste en hacer la calibración de la distorción sobre el propio clip,
+
+			para lo cuál, sólo debemos hacer click, en el botón "Locate Lines", para que así, el sistema
+
+			genere una se de líneas de referencia de color verde sobre el clip, las cuales indicarán a 
+
+			través, de su dirección la forma y geometría del motivod dentro del clip, y por ende detectará 
+
+			las áreas en distorción óptica
+
+
+			Min Line Length:
+			________________
+
+			_si vemos demaciadas líneas de visualización e interpretación generadas por el proceso anterior 
+
+			de "Locate Lines", de color verder podemos aumentar el tamaño que tendrán éstas líneas lo cuál,
+
+			le permitirá al sistema filtrar ó renderizar sólo las áreas más geométricas con líneas más largas
+
+			las cuales seguramente coincidarán con las del motivo ó plano de interés, para ésto, debemos 
+
+			aumentar el valor de la propiedad de "Min Line Length", y volver ha hacer click, en el botón de
+
+			"Locate Lines", para repetir el proceso de visualización de líneas de interpretación de color
+
+			verde
+
+
+			New Line:
+			_________
+
+			_ésta opción nos permite indicarle cuál, será el motivo al sistema, ó también, podríamos decir
+
+			que le estaríamos indicando al sistema cuales son las líneas que deseamos que éste tome en 
+
+			cuenta para la corrección óptica
+
+			
+			_de ésta manera, al dale al botón, "New Line", podremos a continuación seleccionar sobre el 
+
+			viewport, líneas, de ésta manera, podremos seleccionar una línea larga ó seleccionar una serie
+
+			de líneas más pequeñas de forma consecutiva ó contigua para que el sistema las interprete como
+
+			una sóla línea larga de referencia como todas las demás que iremos seleccionando, de ésta 
+
+			manera, podremos ir seleccionando más de una línea con "Shift", + "mouse left click"
+
+
+			_de ésta manera, las líneas seleccionadas por nosotros se irán representando de color azul y
+
+			de otros colores  diferentes lo cuál, las diferenciará de las líneas de color verde
+
+
+			_más para agregar más líneas que representen nuestra geometría ó motivo debemos volver hacer
+
+			mouse left click, sobre el botón "New Line", para que así, podamos hacer la selección sobre 
+
+			las líneas verdes generadas en la previalización
+
+
+			_de ésta manera, cada selección que hagamos en cada "New Line", será representada con un color
+
+			diferente en el viewport, para su diferenciación
+
+
+			NOTA: también, podemos seleccionar líneas alejadas del motivo en otras "New Line", para que así,
+
+			el sistema pueda tomar referencia de elementos más alejados del motivo principal ya que en los
+
+			border de la imágen ó en el área perimetral de la imágen hay más dirtorción de lente ó esférica
+
+			que en el área central de la imágen, de igual manera, es aconsejable tener referencias en tal 
+
+			caso de la parte central y de la parte perimetral
+
+			
+
+			No Distortion:
+			______________
+
+			_en éstas opciones debemos escoger el tipo de distorción ha transferir, para lo cuál, ya 
+
+			tendremos que haber realizados todos los pasos anteriores de creación y selección de líneas
+
+			de referencia y líneas creadas ó personalizadas por nosotros en los pasos "New Line"
+
+
+			_para las distorciones generales de lente bastará con indicar "1-Parameter", más para 
+
+			distorciones muy acusadas ó extremas podemos indicar "2-Parameters", así, como también,
+
+			tendremos a nuetra dispoción la opción de "Anamorphyc", para distorciones totales
+
+
+			_así, luego de haber creado las líneas personalizadas por nosotros a través, de la opción
+
+			de "New Line", debemos de darle al botón de "Calibrate", para que así, el sistema calcula
+
+			la distorción con los parámetros indicados
+
+			
+			_de ésta manera, al indicar la cantidad ó tipo de parámetros de distorción del paso 
+
+			anterior el sistema calculará la distorción la cuál, podremos desactivar ó activar su 
+
+			visualización en las opciones de "Distortion/Enable"
+
+
+			_de ésta manera, las líneas que hemos creado a través, del proceso de "New Line", ahora
+
+			éstas en éste punto tomanrán ó emnularán la distorción en las líneas del motivo para
+
+			transpolarlas al área ha trackear ó extraer para que así, ésta distorción sea llevada ó
+
+			transpolada al proceso de producción sea para un matte, de seguimiento rotoscopia, otros
+
+
+
+	Option 2:
+	_________
+
+
+		_más si tenemos una toma limpia del clip, ó material de archivo donde sólo se vea el fondo ó 
+
+		también, podría ser una imágen fija, así, ésta la podríamos utilizar como referencia para tomar
+
+		de ésta la distorción de la escena, entendiendo que éste clip, ó imágen deben de ser tomados con
+
+		la misma óptica para que así, ambos contenidos tengan la misma distorción, por ejemplo, que ambos
+
+		contenidos sean tomandos con un objetivo de "24mm"
+
+
+		_es recomendable ó cobra sentido para la utilización de ésta modalidad la incorporación en el fondo
+
+		de una imágen ha modo de grid, ó grilla cuadriculada de gran tamaño para que la distorción se plasme
+
+		en ésta de forma totalmente visible y geométrica evitando la mala interpretación en motivos complejos
+
+		y organicos los cuales no sean geométricos y limpios en su conformación estructural y especular, otros
+
+
+		_de ésta manera, en la sección de "Lens/Input", tendremos la opción de:
+
+
+			Calibration Clip:
+
+				_éste será el clip, ó imágen de referencia del cuál, se tomará la distorción
+
+
+			Iput Clip:
+
+				_éste será el clip, de trabajo ó material de archivo
+
+
+		_así, luego de haber cargado el clip, ó imágen en la sección de "Lens/Input/Calibration Clip", debemos
+
+		darle a la opción de "Locate Lines", para que así, el sistema en ves de hacer la interpretación de líneas
+
+		sobre el material de archivo lo haga en el clip, ó imágen de referencia que hemos cargado en éste paso
+
+
+		_de ésta menera, posteriormente de cargado el clip, ó imágen de referencia para crear las líneas verdes
+
+		de referencia a través, del botón de "Locate Lines", nos queda hacer el proceso que heamos visto en los 
+
+		pasos anteriores el cuál, consiste en la creación de las líneas personalizadas para el sistema a través, 
+
+		de la opción de "New Line"
+
+
+		_para que así, por último sólo nos quede que darle al botón d "Calibrate", para que así, el sistema calcule
+
+		la distorción con los parámetros y materiales indicados de referencia
+
+
+		NOTA: al querer ver el resultado en el viewport, debemos de seleccionar en la opción de 
+
+		"Vewport/Select Layer", el clip, del material de archivo ya que a patir de ésta paso el viewport, nos 
+
+		mostrará el clip, ó imágen de referencia que utilizamos en el proceso de "Calibration Clip"
+
+
+		NOTA: los resultados nos serán plamanos en el área ó selección de trackeo ó rastreo si no en el área 
+
+		planar, para visualizar ésta shortcut "Alt + 6"
+
+
+
+
+
+	

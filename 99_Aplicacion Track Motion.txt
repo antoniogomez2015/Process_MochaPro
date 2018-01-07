@@ -1,0 +1,176 @@
+
+
+Mocha Pro
+
+
+	videoedicionorg (10 videos, español)
+
+		https://www.youtube.com/user/videoedicionorg/search?query=mocha
+
+
+	LENS:
+
+		02 - Módulo Lens en Mocha Pro 2.6
+			https://www.youtube.com/watch?v=k9rCVdNo1Gc
+
+
+			
+
+	LENS:
+
+		02 - Módulo Lens en Mocha Pro 2.6
+			https://www.youtube.com/watch?v=k9rCVdNo1Gc
+
+
+
+	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
+
+
+	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Modalidades y aplicaciones:
+___________________________
+
+	
+-----------------------------------------------------------------------------------------------------------
+Modalidades Nativas ó Internas:
+_______________________________
+-----------------------------------------------------------------------------------------------------------
+
+	
+	_en ésta sección estudiaremos las modalidades y aplicaciones que tinen los sistemas y módulos en 
+
+	general así, como las aplicaciones prácticas y más comunes dentro de la producción
+
+
+
+	Layers Modes:
+	_____________
+
+	_las layers, ó selecciones de planos en mocha pro, tienen diferentes aplicaciones como selecciones 
+
+	y planos de rastreo ó tracking, pero también, éstas temporalmente pueden tomar otras características 
+
+	para ciertos procesos en conjuntos con las demás layers
+
+
+
+	Sustract Layer:
+	_______________
+
+	_así, por ejemplo cuando deseamos trakear un plano y sobre éste pasa un elemento ó varios elementos 
+
+	y deseamos que 	éstos elementos no interfieran y que no sean contemplados por el análisis de rastreo 
+
+	para que así, éstos no influyan ó interfieran en el resultado y creterio del sistema para generar el 
+
+	resultado esperado
+
+
+	_de ésta manera, podremos crear layer, de selecciones de éstos elementos que pasan sobre nuestro plano 
+
+	principal ó motivo respectivo para posteriormente hacer "mouse right click", sobre una de las spline, 
+
+	de ésta layer, en el viweport, para que así, nos aparesca un menú contextual de opciones en las cuales 
+
+	podremos seleccionar las opciones de "Layer"
+
+
+	_y en dicha sección del menú contextual seleccionar la opción de "Sustract Layer", para que así, ésta 
+
+	nueva layer, que interfiere sobre la layer, motivo principal sea sustraida de la layer, motivo para que 
+
+	de ésta manera, ésta layer, que pasa sobre nuestro motivo principal no sea tomada en en cuenta a la 
+
+	hora de hacer el seguimiento ó rastreo sobre la layer motivo principal
+
+
+----------------------------------------------------------------------------------------------------------------
+
+Using Transform Data; in After Effects:
+_______________________________________
+
+
+	_ésta opción nos permite exportar la data optenida del proceso de seguimiento de planos en Mocha Pro, ha 
+
+	After Effects, de ésta manera, podremos optener diferentes aplicaciones en diferentes métodos aplicables 
+
+	en diferentes procesos de producción
+
+
+
+	Transpolar movimiento y perspectiva 3d ha un layer, en After Effects: (version de mocha pro 5.0)
+	_____________________________________________________________________
+
+	NOTA: seguimiento de movimiento
+
+
+	_así, por ejemplo; podremos transpolar el movimiento de un plano trackeado en mocha y pasarlo ha una layer, 
+
+	específica ó generica como un "Null Object", en after effects, para que así, ésta layer, dentro de 
+
+	after effects ahora posea el movimiento y la perspectiva del plano en un entorno pseudo 3d, en after effects, 
+
+	para que así, podamos hacer montajes e integraciones con la toma del material de archivo original dentro 
+
+	de after effects, lo que nos permitirá lograr un sin número de efectos dentro del proceso de producción
+
+
+	_para ésto, debemos haber creado previamente el proceso de trackeo de una plano ó área determinada dentro
+
+	de mocha pro, y a continuación ir al módulo de "Mocha Pro/Track/Export Data/", y darle a la opción de 
+
+	"Export Tracking Data..", para que así, se nos abra un panel contextual en el cuál, podremos seleccionar 
+
+	el formato de archivo ha exportar
+
+
+	_para que así, en éste caso debemos seleccionar la opción de 
+
+
+		_"After Effects Transform Data [Position,Scale and rotation] (*.txt)" 
+
+
+	_de ésta manera, al seleccionar ésta opción podremos tanto generar un archivo de texto con la información
+
+	del proceso de trackeo ó directamente podemos guardar ésta información en el portapapeles para utilizar 
+
+	ésta información de inmediato dentro de after effects
+
+
+	_para luego, crear una nueva layer, en after effects ó utilizar una existente donde deseamos volcar la 
+
+	información obtenida del proceso de trackeo dentro de mocha pro
+
+
+	_lo primero será cargar el clip, ó secuencia del material de archivo que teníamos en mocha pro, en el 
+
+	proceso de trackeo pero ahora debemos tenerlo cargado en after effects
+
+
+	_y a continuación es preciso colocar el cabezal del timeline, en el mismo punto donde comienza el video 
+
+	ó material de archivo en mocha pro, para que así, coincidan los elementos entre ambas aplicaciones y 
+
+	tengan coherencia y se logre el efecto de integración
+
+
+	_para a continuación hacer "control + v", para pegar la información que teníamos almacenada dentro del 
+
+	portapapeles para que así, la información sea volcada sobre las propiedades "Position, Scala, Rotation", 
+
+	de forma animada en relación al tiempo y movimiento que se obtuvo de mocha pro
+
+
+	_de ésta manera podremos transpolar el moviemiento obtenido del plano en mocha pro en una layer, dentro 
+
+	de after effects
+
+
+
