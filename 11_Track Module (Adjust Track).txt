@@ -1,0 +1,342 @@
+
+
+
+
+	Mocha Pro
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Trackeo de Planos:
+	__________________
+
+	_ésta modalidad nos permitirá rastrear movimientos de planos para su itlización posterior en aplicaciones de
+
+	producción y paso contínuo
+
+
+
+
+
+	Creación de Plano Inicial:
+	__________________________
+
+	_para la creación de planos a trackear es recomendable utilizar toda la información posible encontrada en un plano, 
+
+	proyección ó perspectiva deseada
+
+
+	_de ésta manera, no sólo tendremos que enmarcar el área ha rastrear ó extrar si no que también, podremos hacer uso
+
+	de áreas contiguas al área deseada, las cuáles, estén a su vez, en el mismo plano ó proyección ó perspectiva del 
+
+	área ha trackear
+
+
+	_de ésta manera, podremos rastrear planos complejos ya que en los casos en los que el área de interés salga de la
+
+	toma, podremos en esos casos tomar informaición de planos contiguos que se encuentren en la misma perspectiva
+
+
+	_así, como también, es recomendable encorporar dentro de la selecciones, bordes con detalles de las formas así,
+
+	como también, incluso incluir partes de áreas de otros planos ó perspectivas para que así, el sistema disponga de 
+
+	más información para generación del trackeo
+
+	
+	_de ésta manera, no es recomendable hacer selecciones exactas de las áreas ha extraer ó rastrear, si no más bien
+
+	hacer selecciones olgadas para que así, el sistema disponga de más información
+
+
+
+
+	Criterios de Trabajo:
+	_____________________
+
+	_una vez hemos creado un plano de seguimiento y layer, es hora de ajustar las características del tracker, ó 
+
+	rastreo ha realizar, lo cuál, debemos hacerlo ó indicarlo antes de realizar el proceso
+
+
+	_para lo cuál, dispondremos de las siguientes opciones:
+
+
+
+		Motion:
+		_______
+
+
+		_Translation:
+
+			_ésta opción permite indicarle al sistema que siga elementos con movimiento en las cordenadas
+
+			"X, Y", a lo largo del tiempo
+
+
+		_Scale:
+
+			_ésta opción permite indicarle al sistema que siga elementos que se escalen a lo largo del 
+
+			tiempo
+
+
+		_Rotation:
+
+			_ésta opción permite indicarle al sistema que siga elementos con rotación a lo largo del 
+
+			tiempo
+
+
+		_Shear:
+
+			_ésta opción permite indicarle al sistema que siga elementos con planos virados ó con 
+
+			inclinación en relación al plano ó rack focus, de la cámara a lo largo del tiempo
+
+
+			_dicho de otra forma, para casos en los que el motivo ó plano se viran hacia adelante ó
+
+			hacia atras como tamién, hacia los costados cambiando así, la perspectiva del mismo
+
+
+		_Perspective:
+
+			_ésta opción permite indicarle al sistema que siga elementos con planos virados muy 
+
+			evidentes y pronunciados con cambios de perspectivas ó "Zoom", muy acusados en relación al 
+
+			plano ó rack focus, de la cámara a lo largo del tiempo
+
+
+			_dicho de otra manera, cuando el plano del motivo cambia de toma de la cámara cambiando
+
+			así, la trayectorio de la cámara hacia el motivo cambiando así, el punto de vista en
+
+			relación cámara-plano del motivo
+
+
+		_Large Motion:
+	
+			_ésta opción nos permite indicarle al sistema si el movimiento de la toma y plano ha 
+
+			trackear son muy pronunciados
+
+
+		_Small Motion:
+
+			_ésta opción nos permite indicarle al sistema si el movimiento de la toma y plano ha 
+
+			trackear son suaves ó pequeños
+
+
+		_Manual Track:
+
+			_ésta opción nos permite darle una indicación al sistema de que tome un criterio neutro y 
+
+			que nosotros mismos de forma manual llevaremos el control de la correcciones del movimiento 
+
+			de los planos ha trackear
+
+
+
+
+
+	Tracker:
+	________
+
+	_una vez hemos creado una área de rastreo, podremos proceder ha comenzar ha rastrear el clip, para lo cuál, debemos
+
+	darle "mouse left click", al botón de "Track Forwards", para que así, el sistema comience ha anilizar el click,
+
+	hacia adelante en éste caso
+
+
+
+	
+	Planos Adicionales Aditivos:
+	____________________________
+
+	_de ésta manera, cuando nos encontremos con que el área rastreada en un punto determinado del análisis ó rastreo
+
+	se sale cuadro, debemos en ese caso, detener el análisis ó rastreo para la inclusión de nuevos planos adicionales 
+
+	para complementar el rastreo
+
+
+	_dichos nuevos planos ha incorporar, deberán estar en el mismo plano de proyección ó perspectiva del área deseada
+
+	ha rastrear
+
+
+	_en éstos casos, con la layer, correspondiente al plano de rastreo que hemos creado previamente seleccionada, 
+
+	vamos a la barra de herramientas y seleccionamos la opción de "Add", ó "+", (Add X-Spline To Layer), ó 
+
+	(Add Bezier Spline To Layer)
+
+
+	_para que así, el sistema nos permita agregar un nuevo plano dentro de la misma layer, que hemos creado de forma
+
+	inicial la cuál, sumará información al trakeo ha realizar a continuación del punto en el que hemos detenido el
+
+	proceso de trackeo ó rastreo
+
+
+	_de ésta manera, al existir más planos dentro de la layer, la información entre planos se transpolará permitiendo
+
+	así, que los planos no se deformen y desfacen por falta de información, ya que los planos se complementan unos
+
+	ha otros, de ésta manera, no nos tiene que preocupar los planos que se saldrán de la toma respectiva al realizar
+
+	el rastreo ó seguimiento restante
+
+
+	_de ésta manera, cada vez que agregemos nuevos planos de información dentro de una misma layer, se agregará un
+
+	nuevo keyframe, por cada plano incluido
+
+
+	_para posteriormente volver ha reanudar el trackeo ó rastreo a través, de la herramienta de "Track Forwards",
+
+	hasta terminar el proceso de segumiento ó rastreo
+
+
+	_de ésta manera, cuando agregamos planos extras fuera del plano principal ó inicial, éstos nuevos planos agregarán
+
+	información adicional al plano ya existente previamente
+
+
+
+
+
+	Planos Adicionales Sustractivos:
+	________________________________
+
+
+	_más si agregamos nuevos planos dentro del plano principal ó inicial, ó de forma super puesta, éstos nuevos planos 
+
+	sustraerán información del plano inicial ó principal 
+
+
+	_lo que es especialmente útil en planos complejos en los que por ejemplo; pasan cosas en movimiento por delante 
+
+	del plano respectivo en un punto determinado ó hay áreas con brillos especulares, otros
+
+
+	_de ésta manera, dispondremos de una herramienta con el nombre de "Show Layer Mattes", en la barra de herramientas
+
+	del panel viewport
+
+
+	_a través, de la cuál, podremos visualizar los sólidos conformados por los planos de rastreo generado y su 
+
+	interacción y modo de trabajo, tanto aditivo como sustractivo
+
+
+	_entendiendo así, que si éstos plano tienen un color sólido de relleno tendrán un comportamiento aditivo más si
+
+	éstos no poseen relleno, tendrán un comportamiento sustractivo
+
+
+
+
+
+	Planar Surface:
+	_______________
+
+	_una vez hemos terminado con el proceso rastreo de planos correctamente, podremos ahora visualizar la posición del
+
+	"Planar Surface"
+
+
+	_el cuál, es el área ha extrar ó área ha tomar en cuenta para el proceso de rastreo ha exportar, para lo cuál,
+
+	debemos de ir al panel superior de herramientas y darle mouse left click, sobre ícono de "Show Planar Surface"
+
+
+	_para que así, se visualize un cuadrado de color azul dentro del primer plano de rastreo que hemos creado en el 
+
+	proceso de rastreo que hemos creado previamente
+
+
+	_para que así, podamos hacer zoom, y hacer ajustes de éste rectángulo sobre el área de interés ha extraer ó ha
+
+	exportar su información de tracker
+
+
+	_de ésta manera, debemos de ser lo más preciso posible en el ajuste de éste retángulo sobre el área ha extrar ó
+
+	seguir respectivamente
+
+
+
+
+
+	Export Data:
+	___________
+
+	_y una vez hemos terminado con el proceso de ajuste del "Planar Surface", podemos ahora proceder ha exportar la
+
+	información deseada del plano objetido del proceso
+
+
+	_para lo cuál, debemos de ir al panel de "Track/Export Data/", en la cuál, debemos de darle al botón de
+
+	"Export Tracking Data.."
+
+
+	_para que así, se abra un panel contextual en el cuál, podremos seleccionar las siguientes opciones:
+
+
+
+
+		_After Effects Coner Pin [corner pin only, supports RG Warp and mochaImport]
+
+			_ésta opción nos permitirá extrar los puntos perimetrales de un área determinada ha
+
+			after effects, para su posterior post producción
+
+			
+			_ésta poción no brindará soporte para aplicación de efectos nativos de motion blur, dentro
+
+			de after effects, más si tendrá soporte para el efecto "MochaImport
+"
+
+
+
+		_After Effects Coner Pin [supports motion blur]
+
+			_ésta opción nos permitirá extrar los puntos perimetrales de un área determinada ha
+
+			after effects, para su posterior post producción
+
+
+			_ésta opción si brindará soporte para la aplicación de efectos nativos de motion blur,
+
+			dentro de after effects, más no tendrá soporte para el pluging, "MochaImport"
+
+
+
+
+		_After Effects Transform Data [position, scale,rotation]
+
+			_ésta opción nos permitirá extrar el movimiento de un plano ha after effects
+
+
+
+
+
+
+
+
+
+
+	
+		
+	

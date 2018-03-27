@@ -1,26 +1,8 @@
 
 
-Mocha Pro
 
 
-	videoedicionorg (10 videos, español)
-
-		https://www.youtube.com/user/videoedicionorg/search?query=mocha
-
-				
-
-	ADJUST TRACK:
-
-		04 - Módulo Adjust en Mocha Pro 2.6
-
-			https://www.youtube.com/watch?v=DWGW-wZGdxk#t=490.211721
-
-
-
-	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
-
-
-	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
+	Mocha Pro
 
 
 
@@ -28,8 +10,8 @@ Mocha Pro
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-Adjust Track Module:
-____________________
+	Adjust Track Module:
+	____________________
 
 	
 	_éste módulo nos permite hacer ajustes sobre los resultados sobre el "Planar Surface", resultante 
@@ -42,6 +24,7 @@ ____________________
 	ha las necesidades de producción y post.producción deseados, así, como también, éste plano "planar surface",
 
 	estará superditado a la edición que realicemos sobre el panel "Lens"
+
 
 
 
@@ -109,6 +92,7 @@ ____________________
 
 
 
+
 	Wordflow:
 	_________
 
@@ -126,6 +110,7 @@ ____________________
 	_de ésta manera, debemos ubicar éste frame, y colocarnos en ésta posición en el timeline, para que el 
 
 	sistema la registre como la referencia principal para completar todo el proceso
+
 
 
 
@@ -254,6 +239,8 @@ ____________________
 			_(Indeterminado)
 
 
+
+
 	Nudge:
 	______
 
@@ -370,6 +357,8 @@ ____________________
 		coincidirán con los keyframes, realizados de forma manual del ajuste punto por punto rojo 
 
 
+
+
 	View:
 	_____
 
@@ -387,6 +376,8 @@ ____________________
 		_Search Area:
 
 			_(Indeterminado)
+
+
 
 
 	Export Data:

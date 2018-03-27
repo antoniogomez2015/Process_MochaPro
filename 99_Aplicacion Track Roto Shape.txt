@@ -1,40 +1,8 @@
 
 
-Mocha Pro
 
 
-	videoedicionorg (10 videos, español)
-
-		https://www.youtube.com/user/videoedicionorg/search?query=mocha
-
-
-	LENS:
-
-		02 - Módulo Lens en Mocha Pro 2.6
-			https://www.youtube.com/watch?v=k9rCVdNo1Gc
-
-
-			
-
-	LENS:
-
-		02 - Módulo Lens en Mocha Pro 2.6
-			https://www.youtube.com/watch?v=k9rCVdNo1Gc
-
-
-
-	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
-
-
-	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
-
-
-
-
-	After Effect CC - Parte 50 - Rotoscopía en Mocha AE 5.0
-		https://www.youtube.com/watch?v=WX5Y_A1zZhE
-
-
+	Mocha Pro
 
 
 
@@ -58,6 +26,7 @@ _______________________________
 
 
 
+
 	Layers Modes:
 	_____________
 
@@ -66,6 +35,7 @@ _______________________________
 	planos de rastreo ó tracking, pero también, éstas temporalmente pueden tomar otras características para 
 
 	ciertos procesos en conjuntos con las demás layers
+
 
 
 
@@ -129,6 +99,7 @@ ___________________________________
 
 
 
+
 	Roto-Mask:
 	__________
 
@@ -148,6 +119,8 @@ ___________________________________
 	varios planos sumados para aumentar así, las posibilidades y habilidades de mocha pro, en el proceso de 
 
 	producción e integración con after effects
+
+
 
 
 	Groups:
@@ -172,6 +145,7 @@ ___________________________________
 
 
 
+
 	Link to Tracking:
 	_________________
 
@@ -191,6 +165,8 @@ ___________________________________
 	posee un tracking, que nos interesa y que se corresponde con el plano ha emparentar, para que así, de ésta 
 
 	manera, queden ambos planos emparentados y con un mismo proceso de trackeo
+
+
 
 
 	Export Shape Data:
@@ -217,6 +193,8 @@ ___________________________________
 	_para que así, seleccionemos la opción de "mocha shape data for AE", y exportemos la información como un 
 
 	archivo ".txt", ó la guardemos en el portapales "Copy to Clipboard", temporalmente
+
+
 
 
 	After Effects Roto-Mask:

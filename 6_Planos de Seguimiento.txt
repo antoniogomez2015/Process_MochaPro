@@ -1,0 +1,250 @@
+
+
+
+	Mocha Pro
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	General:
+	________
+
+	_a través, de las herramientos ó modos de selección de planos de seguimientos podremos crear layers, y planos de
+
+	trackeo ó seguimiento sobre el clip, de video respectivo
+
+
+	_y a través, de éstos planos podremos generar diferentes procesos de producción como extracciones, sustituciones,
+	
+	otros
+
+
+	_de ésta manera, la sección de áreas ó planos es el pilar fundamental de la filosofía de Mocha, para su workflow,
+
+	y desarrollo en relación a nuestras necesidades de producción y paso contínuo
+
+
+
+
+
+
+	X-Spline Layer:
+	_______________
+
+		_ésta herramienta nos permite crear selecciones de planos y elementos sobre el material de archivo en el 
+
+		viewport, a través, de nodos y handles, por medio de los cuales podremos perfeccionar las formas y 
+
+		editarlas a través, del tiempo
+
+
+		_para lo cuál, debemos de crear un punto inicial para que se cree una nueva layer, de trabajo para luego 
+
+		seguir creando más puntos ó vertex, hasta cerrar la forma ó circuito en el mismo punto donde comenzamos
+
+		
+
+		_handles:
+
+			_los handles nos permitirán ajustar la forma y presición que tendrán las splines, que conforman 
+
+			la selección en relación a la cantidad de vertex, que conforman ésta
+
+
+			_así, moviendo éstos manejadores podremos hacer splines, con curvas más suaves ó con ángulos más 
+
+			pronunciados, para lo cuál, tendremos que mover los handles, hacia adentro ó hacia afuera en 
+
+			relación a la ubicación de la splines, y a los demás vertex
+
+
+			_y para seleccionar todos los vertex, de forma automática y poder hacer ajustes grupales, contamos 
+
+			con el shortcit: "mouse right click and drag", así, el sistema seleccionará todos los vertex, que 
+
+			conforman la sección para que así, podamos hacer ediciones grupales de todos los vertex, por igual
+
+
+
+
+
+	Add X-Spline Layer:
+	___________________
+
+		_ésta herramienta nos permite agregar más selecciones a un plano ó área seleccionada previamente así, 
+
+		podremos ampliar las posibilidades de selección agregando más puntos de referencia
+
+
+		_las opciones de ésta herramienta funcionan de forma idéntica a la herramienta "X-Spline Layer:"
+
+
+
+
+	Bezier Layer Tool:
+	__________________
+
+		_ésta herramienta nos permite hacer selecciones de planos y áreas al mismo modo que la herrmienta 
+
+		"X-Spline Layer", más la herramienta "Bezier Layer Tool", nos brinda la posibilidad de la edición de 
+
+		curvas bezier, la cuál nos permite un control por handles, directos sobre cada vertex
+
+
+		_así, dispondremos de handles, tanto de entrada como de salida en cada punto de control que conforma la 
+
+		spline resultante
+
+
+		_y para editar los handles, podemos vincular y desvincular éstos de forma temporal así, a través, del 
+
+		shortcut, "Control +", podremos hacer "mouse left click and drag", para mover los handles de forma 
+
+		independientes unos de otros de forma temporal
+
+
+		_así, como también, podremos acceder a las opciones de la spline, a través, del menú contextual haciendo 
+
+		"mouse right click", sobre cualquier parte de la spline, sobre el viewport
+
+
+		NOTA: todas las herramientas de splines, como x-spline, como bezier, al crear ésta una selección de un 
+
+		plano automáticamente éstas crearán una nueva layer, la cuál, se agregará al panel "Layer Control". el 
+
+		cuál, podremos controlar todos los  parámetro de acción y creterios:
+
+
+			
+
+			Visible:
+
+				_ésta opción nos permite hacer visible una layer, en el viewport ó ocualtar ésta
+
+
+			Active:
+
+				_ésta opción nos permite hacer una layer, activa para el proceso de cálculo de rastreo ó 
+
+				tracking, ó no así, rastrear sólo las layers, que nos interesan de las existentes tanto 
+
+				en el viewport, con en el panel Layer Control
+
+
+
+			Stroke:
+				_ésta opción nos permite cambiar el color de la spline, lo cuál, es especialmente útil 
+
+				para controlar el contraste entre diferentes planos con diferentes elementos de colores 
+
+				cambiantes, otros
+
+
+			Fill:
+
+				_ésta opción nos permite cambiar el color de relleno de referencia de las selecciones ó 
+
+				planos creados para lo cuál, debemos activar la herramienta de visualización de mates ó 
+
+				"Show Layer Mattes", shortcut; "Alt + 1"
+
+			
+			Name:
+
+				_ésta opción nos permite asignarle un nombre descriptivo a las respectivas layers
+
+
+
+
+
+	Add Bezier Layer Tool:
+	______________________
+
+		_ésta herramienta nos permite agregar más selecciones a un plano ó área seleccionada previamente así, 
+
+		podremos ampliar las posibilidades de selección agregando más puntos de referencia
+
+
+		_las opciones de ésta herramienta funcionan de forma idéntica a la herramienta "Bezier Layer Tool:"
+
+
+
+
+	Point Insertion:
+	________________
+
+		_ésta herramienta nos permitirá agregar más puntos ha un selección ó plano ya seleccionado ó creado 
+
+		previamente así, podremos ajustar y mejorar selecciones en casos y planos complejos donde se requerira en 
+
+		determinados casos que agregemos más puntos de detalle para un mejor rastreo
+
+
+
+	Rotate:
+
+		_ésta herramienta nos permitirá hacer rotaciones de selecciones enteras así, podremos acentar la 
+
+		herramienta en el punto que deciemos que sea el punto de rotación para que así, nos aparesca un control 
+
+		de grados sobre los cuales se realizará la rotación de todo el sistema ó plano seleccionado
+
+
+		NOTA: ésta opción estará sólo disponible para la versión de Mocha Pro
+
+
+	Scale:
+
+		_ésta herramienta nos permitirá escalar selecciones enteras así, podremos acentar la herramienta en el 
+
+		punto que deciemos que sea el punto de escala para que así, nos aparesca un control de grados sobre los 
+
+		cuales se realizará la escala de todo el sistema ó plano seleccionado
+
+
+
+	Translate:
+		
+
+		_ésta herramienta nos permitirá mover selecciones enteras así, podremos acentar la herramienta en el punto 
+
+		que deciemos que sea el punto de movimiento para que así, podamos realizará el movimiento de todo el 
+
+		sistema ó plano seleccionado
+
+
+
+	Transformation Tool:
+
+		_ésta herramienta estará activa sobre un plano ó selección activa cuando tengamos la herramienta de 
+
+		selección, por lo general "Pick Tool", báse
+
+
+		_así, a través, de la herramienta de "Transformation Tool", podremos hacer ajustes y deformaciones sobre 
+
+		todo el grupo de vertex, que conforman la selección y el plano en un sólo paso y proporción
+
+
+		_así, de ésta manera, dispondremos de un marco perimetral sobre toda la sección el cuál, podremos 
+
+		seleccionar a través, de sus handles exteriores para su control y manejo
+
+
+		de ésta manera, podremos hacer shear, scale, rotation, translation, distortion, y hasta de forma 
+
+		proporcional haciendo uso del  shortcut, temporal "Shift"
+
+
+
+
+	
+
+
+
+
+	

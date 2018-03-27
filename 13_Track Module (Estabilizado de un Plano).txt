@@ -1,0 +1,204 @@
+
+
+
+
+	Mocha Pro
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Estabilizado de un Plano:
+	_________________________
+
+	_una vez hemos terminado con el proceso tanto de crear los planos de tracker, ó rastreo como de "Planar surface",
+
+	es hora de exportar nuetro proceso de rastreo y data ha after effects
+
+
+
+
+	Composition:
+	____________
+
+	_de ésta manera, ahora para utilizar dentro de after effects, los datos obtenidos en el proceso que hemos 
+	
+	realizado dentro de la  aplicaicón Mocha
+
+
+	_primero debemos tener creado una composición de trabajo creada a patir de arrastrar el clip, de video ó 
+
+	secuencia de imágenes del video analizada dentro de Mocha, sobre el ícono de crear una nueva composición 
+
+	dentro del panel "Project", dentro de after effects
+
+
+	_para que así, se after effects, cree una nueva composición con las mismas características del clip, de video
+
+
+
+
+
+	Export Data:
+	___________
+
+	_y una vez hemos terminado con el proceso de ajuste del "Planar Surface", podemos ahora proceder ha exportar la
+
+	información deseada del plano objetido del proceso
+
+
+	_para lo cuál, debemos de ir al panel de "Track/Export Data/", en la cuál, debemos de darle al botón de
+
+	"Export Tracking Data.."
+
+
+	_para que así, se abra un panel contextual en el cuál, podremos seleccionar las siguientes opciones:
+
+
+
+
+		_After Effects Transform Data [position, scale,rotation]
+
+			_ésta opción nos permitirá extrar el movimiento de un plano ha after effects
+
+
+
+	NOTA: para realizar estabilizados correctamente, debemos en el panel contextual de "Export Tracking Data..",
+
+	en éste caso, de darle al botón "Invert" 
+
+
+	_para que así, el sentido de rastreo de la información del plano analizado sea invertira para que así, se 
+
+	realize el movimiento inverso al de la camara y se genere así, el efecto de estabilizado en after effects
+
+
+	_ya que de lo contrario, de no darle a la opción de "Invert", los datos pegados sobre una layer, en 
+
+	after effects, hará que ésta respectiva layer, se comporte con los mismos movimientos del plano rastreado 
+
+	ó trackeado en Mocha
+
+
+
+
+
+
+	Preview:
+	________
+
+	_una vez hemos terminado con el proceso de trackeo ó rastreo del plano deseado, tendremos la posibilidad de
+
+	visualizar el estabilizado obtenido directamente en Mocha
+
+
+	_para lo cuál, debemos de ir a la barra de herramientas del viewport, específicamente darle mouse left click,
+
+	sobre el ícono "Active Quick Stabilise Mode"
+
+
+	_para que así, darle a botón de play, para visualizar el clip, de video, ahora podremos ver como el video se
+
+	verá estabilizado transpolando así, el movimiento de la cámara hacia los bordes de viewport, sangrando éstos 
+
+	en relación a la cantidad de movimiento existente en el plano respectivo
+
+
+	_lo cuál, nos permitirá tener un apreciación del resultado para determinar si el proceso requerirá ajustes ó
+
+	cambios más definitivos
+
+
+
+
+
+	Clipboard Data:
+	_______________
+
+	_de ésta manera, una vez terminado el proceso de configuración de composiciones de after effects, y así, como
+
+	también, de haber terminado el proceso de rastreo con Mocha, podremos ir al panel "Track/Export Data/", más 
+
+	"invert", y una vez allí, copiar en el portapapeles la data deseada y respectiva
+
+
+	_para que así, podamos volver ha after effects, y proceder ha crear una nueva layer, de tipo null, sobre la 
+
+	cuál, volcaremos la información de tracking, realizado en Mocha, posteriormente
+
+
+	_de ésta manera, con ésta respectiva layer, seleccionada procedemos ha aplicar el shortcut, "Control + V", ó ir 
+
+	a las opciones de "Edit/Paste"
+
+
+	_para que así, el sistema le aplique los valores del rastreo sobre los valores transformación de ésta layer,
+
+	la cuál, hará de proxi para la generación del sistema dentro de after effects
+
+
+	_de ésta manera, habremos transferido la información del área seleccionada en el proceso de Mocha, dentro de 
+
+	la layer, de tipo null 
+
+
+	_para posteriormente proceder ha emparentar la layer, del plano del clip, de video, a la layer, de tipo null, 
+
+	con la información del rastreo
+
+
+	_para lo cuál, podremos desplegar las opciones de emparentamiento del panel timeline, shortcut, "Shift + F4",
+
+	de ésta manera, una vez emparentadas ambas layers, podremos ver como ahora el plano del clip, de video será
+
+	estabilizado correctamente
+
+
+
+
+
+	Compensación de Planos:
+	_______________________
+
+	_más en estabilizados muy fuertes ó evidentes será necesario compensar la estabilización ya que en ocaciones no 
+
+	se verá natural ni agradable en correcciones tan abructas
+
+
+	_así, como también, por la presencia de deformación y efectos como el rolling chater, otros
+
+
+	1_para lo cuál, una de las técnicas es copiar los valores que volcados de "Position", sobre la layer, de tipo
+
+	null, que hace de proxi para la generación del sistema
+
+
+	_y pegar éstos valores sobre la propiedad de "Anchor Point", de ésta misma layer, de tipo null, que hará de proxi,
+
+	para que así, el movimiento del plano sea neutralizado y éste cobre más naturalidad
+
+
+
+	2_otra técnicas consiste en la aplicación del modo de suavizado para lo cuál, primeramente debemos de seleccionar
+
+	la propiedad de "Anchor Point", ya que ésta es la que controlará la posición del plano, seguido del paso anterior
+
+
+	_para posteriormente abrir el panel "Smoother", para que así, podamos indicar un umbral a través, del cuál, 
+
+	podremos descartar información del movimiento del plano lo que aligerará el movimiento del plano, logrando así,
+
+	suavizar y estilizar el movimiento resultante
+
+
+
+
+
+
+
+	
+		
+	

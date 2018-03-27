@@ -1,0 +1,55 @@
+
+
+
+
+
+	Mocha Pro
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	General:
+	________
+
+	
+	_Mocha Pro nos permitirá hacer rastreos de planos a través, del análisis de áreas determinadas ó "Planar Tracking",
+
+	de ésta manera, a través, de ésta información el podrá proporcionarnos información para la generación de 
+
+	estabilizados, rotoscopia, otros
+
+
+	_como también, podremos realizar procesos de recostrucción de planos, pudiendo eliminar éreas de un plano 
+
+	sustituyendo unas áreas por otras
+
+
+	
+
+
+	Formatos Permitidos:
+	____________________
+
+	_Mocha Pro, y Standard, permiten el análisis de algunos formatos de video como el "H.264", entre otros más el 
+
+	sistema requerirá la instalación de "Quicktime", entre otros complementos y codes
+
+
+	_por ende, es recomendable convertir todo el material de video ha analizar ha secuencia de imágenes .jpg, tiff,
+
+	targat, otros, para aumentar así, la compatibilidad y mejorar los resultados obtenidos
+
+
+	
+
+
+
+	
+
+
+
+
+	

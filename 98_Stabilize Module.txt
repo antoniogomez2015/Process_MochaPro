@@ -1,41 +1,24 @@
 
 
-Mocha Pro
 
 
-	videoedicionorg (10 videos, español)
-
-		https://www.youtube.com/user/videoedicionorg/search?query=mocha
-
-				
-
-	Stabilize:
-
-		06 - Módulo Stabilize en Mocha Pro 2.6
+	Mocha Pro
 
 
-			https://www.youtube.com/watch?v=75xuhIYLwAI
-
-
-
-	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
-
-
-	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
-
-
+	
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-Stabilize Module:
-_________________
+	Stabilize Module:
+	_________________
 
 	
 	_éste módulo nos permite seleccionar un área ó motivo y hacer que éste se mantenga lo más estable 
 
 	posible en relación al movimiento de en relación a los demás elementos de la escena
+
 
 
 
@@ -51,6 +34,7 @@ _________________
 	_de ésta manera, al pasar a trabajar en el panel Stabilize, éste ha relizará un cálculo preliminar de forma
 
 	automática con los parámetro de estabilización por defecto
+
 
 
 
@@ -70,6 +54,8 @@ _________________
 			_
 
 
+
+
 	Range:
 	______
 
@@ -85,6 +71,7 @@ _________________
 
 
 
+
 	Output:
 	_______
 
@@ -92,6 +79,7 @@ _________________
 		_output Clip:
 
 			_
+
 
 
 
@@ -171,6 +159,8 @@ _________________
 			atras para que así, el sistema trate de rellenar con la información frame to frame, del clip,
 
 			que le hemos indicado como referencia
+
+
 
 
 	Smooth:
@@ -282,6 +272,7 @@ _________________
 
 
 
+
 	Borders:
 	________
 
@@ -317,6 +308,8 @@ _________________
 		_Apply Crop:
 
 			_(Indeterminado)
+
+
 
 
 
@@ -497,6 +490,7 @@ _________________
 
 
 
+
 	Region:
 	_______
 
@@ -511,6 +505,7 @@ _________________
 			_
 
 
+
 	
 	Sharpen:
 	________
@@ -519,6 +514,7 @@ _________________
 		_Sharpen:
 
 			_
+
 
 
 	

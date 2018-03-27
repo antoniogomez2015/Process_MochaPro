@@ -1,26 +1,18 @@
 
 
-Mocha Pro
 
 
-	videoedicionorg (10 videos, español)
+	Mocha Pro
+	
 
-		https://www.youtube.com/user/videoedicionorg/search?query=mocha
-
-
-	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
-
-
-	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
-
-
+	
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-Clip Module:
-____________
+	Clip Module:
+	____________
 
 	
 	_éste módulo nos permite configurar las opciones del clip importado en Mocha Pro, de ésta manera, podremos chequear y
@@ -29,6 +21,7 @@ ____________
 
 
 	_de ésta manera, encontraremos en éste módulo las siguientes opciones:
+
 
 
 
@@ -45,6 +38,7 @@ ____________
 		_ésta opción nos permite indicar si la ruta de la ubicación de los clips, será relativa ó absoluta, así como
 
 		la respectiva ruta asignada previamente al crear el proyecto
+
 
 
 	Name:
@@ -99,6 +93,7 @@ ____________
 			renderizado el material de archivo ha editar posteriormente
 
 
+
 	Footage Streams:
 	________________
 
@@ -133,6 +128,7 @@ ____________
 		finalice de reproducirse el clip, acciones como "repeat, loops, otros"
 
 
+
 	Display:
 	________
 
@@ -150,6 +146,7 @@ ____________
 		reproducción así, dispondremos de las opciones de visualización de "Frames/Timecode"
 
 
+
 	Colorspace:
 	___________
 
@@ -163,12 +160,14 @@ ____________
 	dentro de la escala de "255", y su respectiva gamma tonal
 
 
+
 	Interlaced:
 	___________
 
 	_ésta opción nos permite indicarle al sistema si el material de archivo y clips, es entrelazado ó prograsivo, de ésta manera
 
 	podremos indiarle al sistema al campo dominando si será el superior ó el inferior y la cadencia de éstos
+
 
 
 	View Mapping:

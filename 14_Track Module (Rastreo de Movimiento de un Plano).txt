@@ -1,0 +1,130 @@
+
+
+
+
+	Mocha Pro
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	Rastreo de Movimiento de un Plano:
+	__________________________________
+
+	_una vez hemos terminado con el proceso tanto de crear los planos de tracker, ó rastreo como de "Planar surface",
+
+	es hora de exportar nuetro proceso de rastreo y data ha after effects
+
+
+
+
+	Composition:
+	____________
+
+	_de ésta manera, ahora para utilizar dentro de after effects, los datos obtenidos en el proceso que hemos 
+	
+	realizado dentro de la  aplicaicón Mocha
+
+
+	_primero debemos tener creado una composición de trabajo creada a patir de arrastrar el clip, de video ó 
+
+	secuencia de imágenes del video analizada dentro de Mocha, sobre el ícono de crear una nueva composición 
+
+	dentro del panel "Project", dentro de after effects
+
+
+	_para que así, se after effects, cree una nueva composición con las mismas características del clip, de video
+
+
+
+
+
+	Export Data:
+	___________
+
+	_y una vez hemos terminado con el proceso de ajuste del "Planar Surface", podemos ahora proceder ha exportar la
+
+	información deseada del plano objetido del proceso
+
+
+	_para lo cuál, debemos de ir al panel de "Track/Export Data/", en la cuál, debemos de darle al botón de
+
+	"Export Tracking Data.."
+
+
+	_para que así, se abra un panel contextual en el cuál, podremos seleccionar las siguientes opciones:
+
+
+
+
+		_After Effects Transform Data [position, scale,rotation]
+
+			_ésta opción nos permitirá extrar el movimiento de un plano ha after effects
+
+
+
+	NOTA: para realizar rastreos de movimientos de planos correctamente, en el panel contextual de 
+
+	"Export Tracking Data..", en éste caso, [NO] debemos de darle al botón "Invert" 
+
+
+
+
+
+
+	Clipboard Data:
+	_______________
+
+	_de ésta manera, una vez terminado el proceso de configuración de composiciones de after effects, y así, como
+
+	también, de haber terminado el proceso de rastreo con Mocha, podremos ir al panel "Track/Export Data/", y una 
+
+	vez allí, copiar en el portapapeles la data deseada y respectiva
+
+
+	_para que así, podamos volver ha after effects, y proceder ha crear una nueva layer, de tipo null, sobre la 
+
+	cuál, volcaremos la información de tracking, realizado en Mocha, posteriormente
+
+
+	_de ésta manera, con ésta respectiva layer, seleccionada procedemos ha aplicar el shortcut, "Control + V", ó ir 
+
+	a las opciones de "Edit/Paste"
+
+
+	_para que así, el sistema le aplique los valores del rastreo sobre los valores transformación de ésta layer,
+
+	la cuál, hará de proxi para la generación del sistema dentro de after effects
+
+
+	_de ésta manera, habremos transferido la información del área seleccionada en el proceso de Mocha, dentro de 
+
+	la layer, de tipo null 
+
+
+	_para posteriormente proceder ha emparentar la layer, del plano del clip, de video, a la layer, de tipo null, 
+
+	con la información del rastreo
+
+
+	_para lo cuál, podremos desplegar las opciones de emparentamiento del panel timeline, shortcut, "Shift + F4",
+
+	de ésta manera, una vez emparentadas ambas layers, podremos ver como ahora el plano del clip, de video u otra 
+
+	layer, auxiliar también, se moverá con el mismo movimiento del plano analizado previamente en Mocha
+
+
+
+
+
+
+
+
+
+
+	
+		
+	

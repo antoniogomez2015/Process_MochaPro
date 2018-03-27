@@ -1,41 +1,17 @@
 
 
-Mocha Pro
 
 
-	videoedicionorg (10 videos, español)
-
-		https://www.youtube.com/user/videoedicionorg/search?query=mocha
-
-
-	LENS:
-
-		02 - Módulo Lens en Mocha Pro 2.6
-			https://www.youtube.com/watch?v=k9rCVdNo1Gc
-
-
-			
-
-	TRACK:
-
-		03 - Realizando un tracking sencillo (corner pin) con Mocha Pro 2.6
-
-			https://www.youtube.com/watch?v=YkOstLMs2zM
-
-
-
-	Fundamentals of Mocha Training Series (17 videos, ingles)  https://www.youtube.com/playlist?list=PL07D9D927AE2D1B34
-
-
-	mocha AE tutorials (32 videos, ingles)  https://www.youtube.com/playlist?list=PLTKXtq-pvDm-1Wss2DRmUUTC1mU1S-zHj
+	Mocha Pro
 
 
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Track Module:
-_____________
+
+	Track Module:
+	_____________
 
 	
 	_éste módulo nos permite hacer seguimientos de planos, entendiendo que mocha pro, realiza 
@@ -56,6 +32,7 @@ _____________
 
 
 
+
 	Layers:
 	_______
 
@@ -69,12 +46,14 @@ _____________
 
 
 
+
 	Shape:
 	______
 
 	_luego debemos crear una selección a través, de la herramienta "Creae X-Spline Layer Tool", así, 
 
 	podremos crear un selección a través, de nodos sobre el área ó plano deseado ha trackear
+
 
 
 
@@ -100,6 +79,7 @@ _____________
 
 
 
+
 	Input:
 	______
 
@@ -109,6 +89,7 @@ _____________
 			_en ésta opción podremos escoger entre los clips, cargados en el sistema para aplicar el 
 
 			track, ha éste
+
 
 
 
@@ -126,13 +107,13 @@ _____________
 
 			_así como también, el porcentaje de pixeles a través, de la opción de "Min % Pixels Used",
 
-			utilizados en relación al tamaño del área seleccionada en plano de trackeo, de ésta manera, al seleccionar un área de acción para 
+			utilizados en relación al tamaño del área seleccionada en plano de trackeo, de ésta manera, al 
 
-			el trackeo, el sistema autimáticamente le asignará un porcentaje mínimo en relación al 
+			seleccionar un área de acción para el trackeo, el sistema autimáticamente le asignará un 
 
-			tamaño de ésta área de acción así, entre mayor sea el área seleccionada menor será el 
+			porcentaje mínimo en relación al tamaño de ésta área de acción así, entre mayor sea el área 
 
-			porcentaje que el sistema le asignará por defecto
+			seleccionada menor será el porcentaje que el sistema le asignará por defecto
 
 
 			_entendiendo así, que entre mayor sea el porcentaje asignado mayor será la precisición 
@@ -148,14 +129,15 @@ _____________
 
 
 
+
 	Motion:
 	_______
 
 		_Translation:
 
-			_ésta opción permite indicarle al sistema que siga elementos con movimiento a lo largo del 
+			_ésta opción permite indicarle al sistema que siga elementos con movimiento en las cordenadas
 
-			tiempo
+			"X, Y", a lo largo del tiempo
 
 
 		_Scale:
@@ -174,9 +156,9 @@ _____________
 
 		_Shear:
 
-			_ésta opción permite indicarle al sistema que siga elementos con planos virados en relación
+			_ésta opción permite indicarle al sistema que siga elementos con planos virados ó con 
 
-			al plano ó rack focus, de la cámara a lo largo del tiempo
+			inclinación en relación al plano ó rack focus, de la cámara a lo largo del tiempo
 
 
 			_dicho de otra forma, para casos en los que el motivo ó plano se viran hacia adelante ó
@@ -188,9 +170,9 @@ _____________
 
 			_ésta opción permite indicarle al sistema que siga elementos con planos virados muy 
 
-			evidentes y pronunciados en relación al plano ó rack focus, de la cámara a lo largo del 
+			evidentes y pronunciados con cambios de perspectivas ó "Zoom", muy acusados en relación al 
 
-			tiempo
+			plano ó rack focus, de la cámara a lo largo del tiempo
 
 
 			_dicho de otra manera, cuando el plano del motivo cambia de toma de la cámara cambiando
@@ -223,7 +205,11 @@ _____________
 			de los planos ha trackear
 
 
+
+
+
 	Search Area:
+	____________
 
 
 		_Horizontal:
