@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+<!--
+
+MOCHA PRO
+
+////////////////////////////////////////////////////////////////
+
+
+Lens Module:
+____________
+	
+_�ste m�dulo nos permite hacer correcciones �pticas de los planos en los clips, de �sta manera, podremos transpolar
+
+_la distorci�n existente en los clips, ha "La Superficie Planar", sobre la cu�l, se volcar� el proceso de render y 	procesado
+
+_�sta opci�n es especialmente �til en superficies con mucha distorci�n �tica, por ejemplo en tomas realizadas con
+
+_gran angular la cu�l deseamos recuperar � transpolar a la zona ha extraer de forma f�cil y r�pida con pocos puntos 
+de seguimiento
+
+
+General:
+________
+
+_primero debemos ir a la secci�n de "Lens", de mocha pro
+
+_y para comenzar con dicho proceso, debemos hacer una selecci�n y crear una nueva layer, de trabajo, �sta 
+
+_selecci�n puede ser una selecci�n existente � podemos crear una nueva la cu�l, nos servir� tanto para �ste
+
+_proceso como los dem�s procesos como track, y procesos posteriores a la correcci�n �ptica
+
+_y para corregir el proceso de distorci�n de lente dispondremos de dos opciones, �stas son:
+
+
+Option 1:
+_________
+
+
+"Locate Lines":
+
+	_la primera opci�n consiste en hacer la calibraci�n de la distorci�n sobre el propio clip,
+
+	_para lo cu�l, s�lo debemos hacer click, en el bot�n "Locate Lines", para que as�, el sistema
+
+	_genere una se de l�neas de referencia de color verde sobre el clip, las cuales indicar�n a 
+
+	_trav�s, de su direcci�n la forma y geometr�a del motivod dentro del clip, y por ende detectar� 
+	las �reas en distorci�n �ptica
+
+
+Min Line Length:
+________________
+
+	_si vemos demaciadas l�neas de visualizaci�n e interpretaci�n generadas por el proceso anterior 
+
+	_de "Locate Lines", de color verder podemos aumentar el tama�o que tendr�n �stas l�neas lo cu�l,
+
+	_le permitir� al sistema filtrar � renderizar s�lo las �reas m�s geom�tricas con l�neas m�s largas
+
+	_las cuales seguramente coincidar�n con las del motivo � plano de inter�s, para �sto, debemos 
+
+	_aumentar el valor de la propiedad de "Min Line Length", y volver ha hacer click, en el bot�n de
+
+	_"Locate Lines", para repetir el proceso de visualizaci�n de l�neas de interpretaci�n de color		verde
+
+
+New Line:
+_________
+
+	_�sta opci�n nos permite indicarle cu�l, ser� el motivo al sistema, � tambi�n, podr�amos decir
+
+	_que le estar�amos indicando al sistema cuales son las l�neas que deseamos que �ste tome en cuenta para la correcci�n �ptica
+			
+	_de �sta manera, al dale al bot�n, "New Line", podremos a continuaci�n seleccionar sobre el 
+
+	_viewport, l�neas, de �sta manera, podremos seleccionar una l�nea larga � seleccionar una serie
+
+	_de l�neas m�s peque�as de forma consecutiva � contigua para que el sistema las interprete como
+
+	_una s�la l�nea larga de referencia como todas las dem�s que iremos seleccionando, de �sta 
+
+	_manera, podremos ir seleccionando m�s de una l�nea con "Shift", + "mouse left click"
+
+	_de �sta manera, las l�neas seleccionadas por nosotros se ir�n representando de color azul y
+
+	_de otros colores  diferentes lo cu�l, las diferenciar� de las l�neas de color verde
+
+	_m�s para agregar m�s l�neas que representen nuestra geometr�a � motivo debemos volver hacer
+
+	_mouse left click, sobre el bot�n "New Line", para que as�, podamos hacer la selecci�n sobre las l�neas verdes generadas en la prevializaci�n
+
+	_de �sta manera, cada selecci�n que hagamos en cada "New Line", ser� representada con un color diferente en el viewport, para su diferenciaci�n
+
+
+	NOTA: tambi�n, podemos seleccionar l�neas alejadas del motivo en otras "New Line", para que as�,
+
+	_el sistema pueda tomar referencia de elementos m�s alejados del motivo principal ya que en los
+
+	_border de la im�gen � en el �rea perimetral de la im�gen hay m�s dirtorci�n de lente � esf�rica
+
+	_que en el �rea central de la im�gen, de igual manera, es aconsejable tener referencias en tal caso de la parte central y de la parte perimetral
+
+			
+
+No Distortion:
+______________
+
+	_en �stas opciones debemos escoger el tipo de distorci�n ha transferir, para lo cu�l, ya 
+
+	_tendremos que haber realizados todos los pasos anteriores de creaci�n y selecci�n de l�neas
+
+	_de referencia y l�neas creadas � personalizadas por nosotros en los pasos "New Line"
+
+
+	_para las distorciones generales de lente bastar� con indicar "1-Parameter", m�s para 
+
+	_distorciones muy acusadas � extremas podemos indicar "2-Parameters", as�, como tambi�n,
+
+	_tendremos a nuetra dispoci�n la opci�n de "Anamorphyc", para distorciones totales
+
+	_as�, luego de haber creado las l�neas personalizadas por nosotros a trav�s, de la opci�n
+
+	_de "New Line", debemos de darle al bot�n de "Calibrate", para que as�, el sistema calcula la distorci�n con los par�metros indicados
+
+	_de �sta manera, al indicar la cantidad � tipo de par�metros de distorci�n del paso 
+
+	anterior el sistema calcular� la distorci�n la cu�l, podremos desactivar � activar su visualizaci�n en las opciones de "Distortion/Enable"
+
+	_de �sta manera, las l�neas que hemos creado a trav�s, del proceso de "New Line", ahora
+
+	_�stas en �ste punto tomanr�n � emnular�n la distorci�n en las l�neas del motivo para
+
+	_transpolarlas al �rea ha trackear � extraer para que as�, �sta distorci�n sea llevada �
+
+	_transpolada al proceso de producci�n sea para un matte, de seguimiento rotoscopia, otros
+
+
+
+Option 2:
+_________
+
+	_m�s si tenemos una toma limpia del clip, � material de archivo donde s�lo se vea el fondo � 
+
+	_tambi�n, podr�a ser una im�gen fija, as�, �sta la podr�amos utilizar como referencia para tomar
+
+	_de �sta la distorci�n de la escena, entendiendo que �ste clip, � im�gen deben de ser tomados con
+
+	_la misma �ptica para que as�, ambos contenidos tengan la misma distorci�n, por ejemplo, que ambos	contenidos sean tomandos con un objetivo de "24mm"
+
+	_es recomendable � cobra sentido para la utilizaci�n de �sta modalidad la incorporaci�n en el fondo
+
+	_de una im�gen ha modo de grid, � grilla cuadriculada de gran tama�o para que la distorci�n se plasme
+
+	_en �sta de forma totalmente visible y geom�trica evitando la mala interpretaci�n en motivos complejos
+
+	_y organicos los cuales no sean geom�tricos y limpios en su conformaci�n estructural y especular, otros
+
+
+	_de �sta manera, en la secci�n de "Lens/Input", tendremos la opci�n de:
+
+
+		Calibration Clip:
+
+			_�ste ser� el clip, � im�gen de referencia del cu�l, se tomar� la distorci�n
+
+
+		Iput Clip:
+
+			_�ste ser� el clip, de trabajo � material de archivo
+
+
+		_as�, luego de haber cargado el clip, � im�gen en la secci�n de "Lens/Input/Calibration Clip", debemos
+
+		_darle a la opci�n de "Locate Lines", para que as�, el sistema en ves de hacer la interpretaci�n de l�neas
+
+		_sobre el material de archivo lo haga en el clip, � im�gen de referencia que hemos cargado en �ste paso
+
+		_de �sta menera, posteriormente de cargado el clip, � im�gen de referencia para crear las l�neas verdes
+
+		_de referencia a trav�s, del bot�n de "Locate Lines", nos queda hacer el proceso que heamos visto en los 
+
+		_pasos anteriores el cu�l, consiste en la creaci�n de las l�neas personalizadas para el sistema a trav�s, de la opci�n de "New Line"
+
+
+		_para que as�, por �ltimo s�lo nos quede que darle al bot�n d "Calibrate", para que as�, el sistema calcule
+
+		_la distorci�n con los par�metros y materiales indicados de referencia
+
+
+		NOTA: al querer ver el resultado en el viewport, debemos de seleccionar en la opci�n de 
+
+		_"Vewport/Select Layer", el clip, del material de archivo ya que a patir de �sta paso el viewport, nos 
+
+		_mostrar� el clip, � im�gen de referencia que utilizamos en el proceso de "Calibration Clip"
+
+
+		NOTA: los resultados nos ser�n plamanos en el �rea � selecci�n de trackeo � rastreo si no en el �rea 
+		planar, para visualizar �sta shortcut "Alt + 6"
+
+
+
+
+
+
+
+
+
+-->
+</body>
+</html>
